@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Association</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_snc_hconnector_st_association</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>true</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-23 06:27:59</sys_created_on>
+        <sys_id>6956cbde876cc910baf50fa90cbb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Association</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_db_object_6956cbde876cc910baf50fa90cbb351a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-23 06:27:59</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_snc_hconnector.association_user" name="x_snc_hconnector.association_user">4776cbde876cc910baf50fa90cbb351f</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>4cb7a96bdb87b8109df22f17d49619f2</instance_id>
+        <instance_name>hederatoken</instance_name>
+        <name>sys_db_object_6956cbde876cc910baf50fa90cbb351a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Association</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_hconnector_st_association</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>true</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-23 06:27:59</sys_created_on><sys_id>6956cbde876cc910baf50fa90cbb351a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Association</sys_name><sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_db_object_6956cbde876cc910baf50fa90cbb351a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-23 06:27:59</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_hconnector.association_user" name="x_snc_hconnector.association_user">4776cbde876cc910baf50fa90cbb351f</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-2116372351</payload_hash>
+        <record_name>Association</record_name>
+        <reverted_from/>
+        <source>c201e57e874c8190baf50fa90cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-23 06:28:00</sys_created_on>
+        <sys_id>5776cfde876cc910baf50fa90cbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17de5f99cd90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-23 06:28:00</sys_updated_on>
+        <type>Table</type>
+        <update_guid>5f76cfdec56cc910b7b54a0bd9582e71</update_guid>
+        <update_guid_history>5f76cfdec56cc910b7b54a0bd9582e71:-2116372351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-27 15:47:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>95ea967323e94634a94ffc5a1d15c544</sys_id>
+        <sys_metadata>6956cbde876cc910baf50fa90cbb351a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Association</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_db_object_6956cbde876cc910baf50fa90cbb351a</sys_update_name>
+        <sys_update_version display_value="sys_db_object_6956cbde876cc910baf50fa90cbb351a">5776cfde876cc910baf50fa90cbb3572</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-27 15:47:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

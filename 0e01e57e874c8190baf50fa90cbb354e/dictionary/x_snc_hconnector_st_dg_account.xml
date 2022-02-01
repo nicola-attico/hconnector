@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DG Account" max_length="40" name="x_snc_hconnector_st_dg_account" sizeclass="0" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Auto Renew" max_length="40" name="auto_renew" type="glide_duration"/>
+        <element label="Created On" max_length="40" name="created_on" type="glide_date_time"/>
+        <element label="Expiry" max_length="40" name="expiry" type="glide_date_time"/>
+        <element label="Memo" max_length="255" name="memo" type="string_full_utf8"/>
+        <element label="Payer Id" max_length="50" name="payer_id" type="string"/>
+        <element label="Public Key" max_length="50" name="public_key" type="string"/>
+        <element label="Tinybar" max_length="50" name="tinybar" type="string"/>
+    </element>
+</database>

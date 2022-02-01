@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="payer_id" label="Payer Id" language="en" table="x_snc_hconnector_st_dg_account">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>payer_id</element>
+            <help/>
+            <hint/>
+            <label>Payer Id</label>
+            <language>en</language>
+            <name>x_snc_hconnector_st_dg_account</name>
+            <plural>Payer Ids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-11 08:29:20</sys_created_on>
+            <sys_id>ef2fade28798c5d0baf50fa90cbb356e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Payer Id</sys_name>
+            <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_hconnector_st_dg_account_payer_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-11 08:29:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

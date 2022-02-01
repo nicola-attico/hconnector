@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="discovery_sensor">
+    <discovery_sensor action="DELETE">
+        <active>true</active>
+        <agent/>
+        <apply_defaults>true</apply_defaults>
+        <classification_type/>
+        <coalesce/>
+        <condition_script/>
+        <data_option>insert_update</data_option>
+        <data_source/>
+        <description>Command Sensor</description>
+        <external_names/>
+        <java_class/>
+        <major_version>1</major_version>
+        <minor_version>0</minor_version>
+        <name>Command Sensor</name>
+        <order/>
+        <parent/>
+        <reacts_to_probe display_value="Command">223caebe0a00798700a60783ebbb9f84</reacts_to_probe>
+        <script/>
+        <sensor_type>Javascript</sensor_type>
+        <sys_class_name>discovery_sensor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-27 19:35:42</sys_created_on>
+        <sys_id>90f06ab387600550baf50fa90cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Command Sensor</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>discovery_sensor_90f06ab387600550baf50fa90cbb3593</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-27 19:35:42</sys_updated_on>
+        <table/>
+        <type>data_source</type>
+        <xml_root_node/>
+    </discovery_sensor>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>4cb7a96bdb87b8109df22f17d49619f2</instance_id>
+        <instance_name>hederatoken</instance_name>
+        <name>discovery_sensor_90f06ab387600550baf50fa90cbb3593</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="discovery_sensor"><discovery_sensor action="INSERT_OR_UPDATE"><active>true</active><agent/><apply_defaults>true</apply_defaults><classification_type/><coalesce/><condition_script/><data_option>insert_update</data_option><data_source/><description>Command Sensor</description><external_names/><java_class/><major_version>1</major_version><minor_version>0</minor_version><name>Command Sensor</name><order/><parent/><reacts_to_probe display_value="Command">223caebe0a00798700a60783ebbb9f84</reacts_to_probe><script/><sensor_type>Javascript</sensor_type><sys_class_name>discovery_sensor</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-27 19:35:42</sys_created_on><sys_id>90f06ab387600550baf50fa90cbb3593</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Command Sensor</sys_name><sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>discovery_sensor_90f06ab387600550baf50fa90cbb3593</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-27 19:35:42</sys_updated_on><table/><type>data_source</type><xml_root_node/></discovery_sensor></record_update>]]></payload>
+        <payload_hash>2080576383</payload_hash>
+        <record_name>Command Sensor</record_name>
+        <reverted_from/>
+        <source>c201e57e874c8190baf50fa90cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-27 19:35:42</sys_created_on>
+        <sys_id>0521aab387600550baf50fa90cbb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dfd6435ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-27 19:35:42</sys_updated_on>
+        <type>Sensor</type>
+        <update_guid>0d21aab37a600550a1ae0188b3dc7741</update_guid>
+        <update_guid_history>0d21aab37a600550a1ae0188b3dc7741:2080576383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Command Sensor">bfff1c5987014d902560021a0cbb357b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 12:18:03</sys_created_on>
+        <sys_db_object display_value="" name="discovery_sensor">discovery_sensor</sys_db_object>
+        <sys_id>18d566ff487e4f3cbdf17271b55e4cc9</sys_id>
+        <sys_metadata>90f06ab387600550baf50fa90cbb3593</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Command Sensor</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>discovery_sensor_90f06ab387600550baf50fa90cbb3593</sys_update_name>
+        <sys_update_version display_value="discovery_sensor_90f06ab387600550baf50fa90cbb3593">0521aab387600550baf50fa90cbb3542</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 12:18:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

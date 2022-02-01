@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Fungible Token</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 09:00:44</sys_created_on>
+        <sys_id>9513d1a387504dd0baf50fa90cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fungible Token</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_template_9513d1a387504dd0baf50fa90cbb35dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 09:00:44</sys_updated_on>
+        <table>x_snc_hconnector_tokencreate</table>
+        <template>decimals=3^initial_supply=1000000000^name=NOW^sign_with=91cf9dea8718c5d0baf50fa90cbb35b0,c5b2a5228758c5d0baf50fa90cbb3504^symbol=N^treasury_account=0.0.18691939^type=ft^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>4cb7a96bdb87b8109df22f17d49619f2</instance_id>
+        <instance_name>hederatoken</instance_name>
+        <name>sys_template_9513d1a387504dd0baf50fa90cbb35dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>Fungible Token</name><next/><next_child/><roles/><short_description/><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-14 09:00:44</sys_created_on><sys_id>9513d1a387504dd0baf50fa90cbb35dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fungible Token</sys_name><sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_template_9513d1a387504dd0baf50fa90cbb35dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-14 09:00:44</sys_updated_on><table>x_snc_hconnector_tokencreate</table><template>decimals=3^initial_supply=1000000000^name=NOW^sign_with=91cf9dea8718c5d0baf50fa90cbb35b0,c5b2a5228758c5d0baf50fa90cbb3504^symbol=N^treasury_account=0.0.18691939^type=ft^EQ</template><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><view/></sys_template></record_update>]]></payload>
+        <payload_hash>-991062777</payload_hash>
+        <record_name>Fungible Token</record_name>
+        <reverted_from/>
+        <source>c201e57e874c8190baf50fa90cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 09:00:44</sys_created_on>
+        <sys_id>f82355a387504dd0baf50fa90cbb3551</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17db82c33cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 09:00:44</sys_updated_on>
+        <type>Template</type>
+        <update_guid>f02355a382504dd01f88f7f8f2d12d51</update_guid>
+        <update_guid_history>f02355a382504dd01f88f7f8f2d12d51:-991062777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-16 13:21:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>62354b56b81a402ebb3220b3126e27e4</sys_id>
+        <sys_metadata>9513d1a387504dd0baf50fa90cbb35dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fungible Token</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_template_9513d1a387504dd0baf50fa90cbb35dc</sys_update_name>
+        <sys_update_version display_value="sys_template_9513d1a387504dd0baf50fa90cbb35dc">f82355a387504dd0baf50fa90cbb3551</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-16 13:21:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

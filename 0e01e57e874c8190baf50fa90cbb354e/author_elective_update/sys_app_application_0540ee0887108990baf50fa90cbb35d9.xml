@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Balances</name>
+        <order>100</order>
+        <roles>x_snc_hconnector.balances_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 17:38:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0540ee0887108990baf50fa90cbb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Balances</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_app_application_0540ee0887108990baf50fa90cbb35d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 17:38:59</sys_updated_on>
+        <title>Balances</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>4cb7a96bdb87b8109df22f17d49619f2</instance_id>
+        <instance_name>hederatoken</instance_name>
+        <name>sys_app_application_0540ee0887108990baf50fa90cbb35d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Balances</name><order>100</order><roles>x_snc_hconnector.balances_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 17:38:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0540ee0887108990baf50fa90cbb35d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Balances</sys_name><sys_overrides/><sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_app_application_0540ee0887108990baf50fa90cbb35d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 17:38:59</sys_updated_on><title>Balances</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1793223435</payload_hash>
+        <record_name>Balances</record_name>
+        <reverted_from/>
+        <source>c201e57e874c8190baf50fa90cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 17:38:59</sys_created_on>
+        <sys_id>4d40ee0887108990baf50fa90cbb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d8160b80c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 17:38:59</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>4540ee0873108990c2c3b5ed5f2d30db</update_guid>
+        <update_guid_history>4540ee0873108990c2c3b5ed5f2d30db:1793223435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Balances">45f0a68887108990baf50fa90cbb3514</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 17:41:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>a88d5300ff734584996d0e1fc8805784</sys_id>
+        <sys_metadata>0540ee0887108990baf50fa90cbb35d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Balances</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_app_application_0540ee0887108990baf50fa90cbb35d9</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0540ee0887108990baf50fa90cbb35d9">4d40ee0887108990baf50fa90cbb35db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 17:41:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

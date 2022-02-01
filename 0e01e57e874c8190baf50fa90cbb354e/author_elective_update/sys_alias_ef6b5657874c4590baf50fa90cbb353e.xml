@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>sys_connection</connection_type>
+        <id>x_snc_hconnector.mid</id>
+        <multiple_connections>false</multiple_connections>
+        <name>mid</name>
+        <parent/>
+        <retry_policy display_value="Default SFTP Retry Policy">e385484773100010e3a71afe2ff6a709</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 09:22:36</sys_created_on>
+        <sys_id>ef6b5657874c4590baf50fa90cbb353e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_hconnector.mid</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_alias_ef6b5657874c4590baf50fa90cbb353e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 09:23:25</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>4cb7a96bdb87b8109df22f17d49619f2</instance_id>
+        <instance_name>hederatoken</instance_name>
+        <name>sys_alias_ef6b5657874c4590baf50fa90cbb353e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>sys_connection</connection_type><id>x_snc_hconnector.mid</id><multiple_connections>false</multiple_connections><name>mid</name><parent/><retry_policy display_value="Default SFTP Retry Policy">e385484773100010e3a71afe2ff6a709</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-01 09:22:36</sys_created_on><sys_id>ef6b5657874c4590baf50fa90cbb353e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_snc_hconnector.mid</sys_name><sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package><sys_policy/><sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope><sys_update_name>sys_alias_ef6b5657874c4590baf50fa90cbb353e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-01 09:23:25</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+        <payload_hash>368469511</payload_hash>
+        <record_name>x_snc_hconnector.mid</record_name>
+        <reverted_from/>
+        <source>c201e57e874c8190baf50fa90cbb3551</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 09:23:25</sys_created_on>
+        <sys_id>2aab5e57874c4590baf50fa90cbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d754e4e7d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 09:23:25</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>9eab5e57ec4c4590fead385c899a353e</update_guid>
+        <update_guid_history>9eab5e57ec4c4590fead385c899a353e:368469511,9e7b5257a74c45905c55a6cb4d9e127b:-1111284706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-28 10:27:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>1387f8a731a14af0820e663c5cf55900</sys_id>
+        <sys_metadata>ef6b5657874c4590baf50fa90cbb353e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hconnector.mid</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_alias_ef6b5657874c4590baf50fa90cbb353e</sys_update_name>
+        <sys_update_version display_value="sys_alias_ef6b5657874c4590baf50fa90cbb353e">2aab5e57874c4590baf50fa90cbb353f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-28 10:27:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

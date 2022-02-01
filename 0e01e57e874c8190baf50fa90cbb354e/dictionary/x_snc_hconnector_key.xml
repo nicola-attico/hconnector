@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Key" max_length="40" name="x_snc_hconnector_key" sizeclass="3" type="collection">
+        <element label="Has Private Key" max_length="40" name="has_private_key" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    function expand(rec) {&#13;&#10;&#13;&#10;        var k = [];&#13;&#10;        var o = {&#13;&#10;            keys: k&#13;&#10;        };&#13;&#10;&#13;&#10;        var gr = new GlideRecord(&quot;x_snc_hconnector_m2m_keys_parent&quot;);&#13;&#10;        gr.addQuery(&quot;parent&quot;, rec.sys_id);&#13;&#10;        gr.query();&#13;&#10;        if (!rec.threshold.nil()) {&#13;&#10;            o.threshold = Number(rec.threshold);&#13;&#10;        }&#13;&#10;        while (gr.next()) {&#13;&#10;            if (gr.child.type.toString() == &quot;key&quot;) {&#13;&#10;                k.push(gr.child.public_key.toString());&#13;&#10;            }&#13;&#10;            if (gr.child.type == &quot;keylist&quot;) {&#13;&#10;                var kl = new GlideRecord(&quot;x_snc_hconnector_key&quot;);&#13;&#10;                kl.get(gr.child.sys_id);&#13;&#10;                x = expand(kl);&#13;&#10;                k.push(x);&#13;&#10;            }&#13;&#10;        }&#13;&#10;&#13;&#10;        gs.addInfoMessage(JSON.stringify(o))&#13;&#10;        return o&#13;&#10;    }&#13;&#10;&#13;&#10;    if (current.type == 'keylist') {&#13;&#10;        return JSON.stringify(expand(current))&#13;&#10;    }&#13;&#10;&#13;&#10;})(current);" label="JSON" max_length="10000" name="json" read_only="true" type="string" virtual="true"/>
+        <element label="Name" max_length="100" name="name" type="string_full_utf8"/>
+        <element label="Public Key" max_length="100" name="public_key" type="string"/>
+        <element label="Public Key Suffix" max_length="100" name="public_key_suffix" primary="true" type="string"/>
+        <element label="Published" max_length="40" name="published" type="boolean"/>
+        <element label="Threshold" max_length="40" name="threshold" type="integer"/>
+        <element choice="3" default="key" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Key" value="key"/>
+                <element inactive_on_update="false" label="Keylist" value="keylist"/>
+            </choice>
+        </element>
+    </element>
+</database>

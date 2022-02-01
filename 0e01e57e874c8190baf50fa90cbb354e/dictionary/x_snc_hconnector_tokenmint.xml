@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_hconnector_transaction" label="TokenMint" max_length="40" name="x_snc_hconnector_tokenmint" sizeclass="11" type="collection">
+        <element label="Amount" max_length="100" name="amount" type="string"/>
+        <element label="Metadata" max_length="1024" name="metadata" type="string_full_utf8"/>
+        <element label="serials" max_length="1000" name="serials" type="string"/>
+        <element label="Token" max_length="32" name="token" reference="x_snc_hconnector_token" type="reference"/>
+        <index name="index">
+            <element name="token"/>
+        </index>
+    </element>
+</database>

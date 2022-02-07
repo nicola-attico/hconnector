@@ -5,6 +5,7 @@
         <element label="Account Number" max_length="40" name="account_number" type="string"/>
         <element label="Balance" max_length="50" name="balance" type="string"/>
         <element label="Decimals" max_length="50" name="decimals" type="string"/>
+        <element label="Floating Point Balance" max_length="40" name="floating_point_balance" type="float"/>
         <element label="Formatted Balance" max_length="100" name="fmt_balance" type="string"/>
         <element label="Token" max_length="32" name="token" reference="x_snc_hconnector_token" type="reference"/>
         <element label="Token Id" max_length="20" name="token_id" type="string"/>

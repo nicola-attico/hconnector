@@ -12,29 +12,29 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>minttoken</internal_name>
-        <label_cache>[{"name":"{{action.key}}","label":"action➛key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.memo}}","label":"action➛memo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.name}}","label":"action➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.symbol}}","label":"action➛symbol","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.treasury}}","label":"action➛treasury","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.maxsupply}}","label":"action➛maxsupply","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.supplykey}}","label":"action➛supplykey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.adminkey}}","label":"action➛adminkey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.freezekey}}","label":"action➛freezekey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pausekey}}","label":"action➛pausekey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.wipekey}}","label":"action➛wipekey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.kyckey}}","label":"action➛kyckey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sign}}","label":"action➛sign","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.supply}}","label":"action➛supply","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.decimals}}","label":"action➛decimals","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛type","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"ft","value":"ft","order":1.0},{"label":"nft","value":"nft","order":2.0}],"attributes":{}},{"name":"{{action.kind}}","label":"action➛kind","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"ft","value":"ft","order":1.0},{"label":"nft","value":"nft","order":2.0}],"attributes":{}},{"name":"{{action.sign_with}}","label":"action➛sign_with","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":"","reference_display":"tokencreate","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record.sign}}","label":"action➛record➛Sign","type":"action","ref":"","reference_display":"Sign","base_type":"glide_list","parent_table_name":"x_snc_hconnector_tokencreate","column_name":"sign","choices":null,"attributes":{}},{"name":"{{action.transfers}}","label":"action➛transfers","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.signatures}}","label":"action➛signatures","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.tx}}","label":"action➛tx","type":"action","ref":"","reference_display":"accountcreate","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.tx.token_id}}","label":"action➛tx➛Token Id","type":"action","ref":"","reference_display":"Token Id","base_type":"string","parent_table_name":"x_snc_hconnector_tokenassociate","column_name":"token_id","choices":null,"attributes":{}},{"name":"{{action.tx.account_id}}","label":"action➛tx➛Account Id","type":"action","ref":"","reference_display":"Account Id","base_type":"string","parent_table_name":"x_snc_hconnector_tokenassociate","column_name":"account_id","choices":null,"attributes":{}},{"name":"{{action.tx.token.token_id}}","label":"action➛tx➛Token➛Token Id","type":"action","ref":"","reference_display":"Token Id","base_type":"string","parent_table_name":"x_snc_hconnector_token","column_name":"token_id","choices":null,"attributes":{}},{"name":"{{action.tx.account.account_id}}","label":"action➛tx➛Account➛Account Id","type":"action","ref":"","reference_display":"Account Id","base_type":"string","parent_table_name":"x_snc_hconnector_account","column_name":"account_id","choices":null,"attributes":{}},{"name":"{{action.account_id}}","label":"action➛account_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a986e187-d4cc-4aa9-84f1-3fa128cca92a].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[23cdc867-bd30-4f9c-95e2-861a044e11f2].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[23cdc867-bd30-4f9c-95e2-861a044e11f2].signatures}}","label":"step➛Script step➛signatures","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[23cdc867-bd30-4f9c-95e2-861a044e11f2].ret}}","label":"step➛Script step➛ret","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f4259c4a-166f-4279-9922-68e4da350234].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d221546-5bd4-443f-8d11-bf1207bd0840].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[064bc78e-32ae-4fe0-bf1b-a8bf899b4e5e].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[064bc78e-32ae-4fe0-bf1b-a8bf899b4e5e].transaction_id}}","label":"step➛Script step➛transaction_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[064bc78e-32ae-4fe0-bf1b-a8bf899b4e5e].transaction_hash}}","label":"step➛Script step➛transaction_hash","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d2d03717-3d56-4d0a-b382-c13befeccc79].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d2d03717-3d56-4d0a-b382-c13befeccc79].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[69a9bbc2-98d6-4d66-be10-d3a455e74396].variable}}","label":"step➛Parse output➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[69a9bbc2-98d6-4d66-be10-d3a455e74396].account_id}}","label":"step➛Parse output➛account_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1a89c5e6-bec5-40cd-b69a-c50d5d85e15e].record.sys_id}}","label":"step➛Pin Account➛Account Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_snc_hconnector_account","column_name":"sys_id","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.key}}","label":"action➛key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.memo}}","label":"action➛memo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.name}}","label":"action➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.symbol}}","label":"action➛symbol","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.treasury}}","label":"action➛treasury","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.maxsupply}}","label":"action➛maxsupply","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.supplykey}}","label":"action➛supplykey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.adminkey}}","label":"action➛adminkey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.freezekey}}","label":"action➛freezekey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pausekey}}","label":"action➛pausekey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.wipekey}}","label":"action➛wipekey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.kyckey}}","label":"action➛kyckey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sign}}","label":"action➛sign","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.supply}}","label":"action➛supply","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.decimals}}","label":"action➛decimals","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛type","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"ft","value":"ft","order":1},{"label":"nft","value":"nft","order":2}],"attributes":{}},{"name":"{{action.kind}}","label":"action➛kind","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"ft","value":"ft","order":1},{"label":"nft","value":"nft","order":2}],"attributes":{}},{"name":"{{action.sign_with}}","label":"action➛sign_with","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":"","reference_display":"tokencreate","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record.sign}}","label":"action➛record➛Sign","type":"action","ref":"","reference_display":"Sign","base_type":"glide_list","parent_table_name":"x_snc_hconnector_tokencreate","column_name":"sign","choices":null,"attributes":{}},{"name":"{{action.transfers}}","label":"action➛transfers","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.signatures}}","label":"action➛signatures","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.tx}}","label":"action➛tx","type":"action","ref":"","reference_display":"accountcreate","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.tx.token_id}}","label":"action➛tx➛Token Id","type":"action","ref":"","reference_display":"Token Id","base_type":"string","parent_table_name":"x_snc_hconnector_tokenassociate","column_name":"token_id","choices":null,"attributes":{}},{"name":"{{action.tx.account_id}}","label":"action➛tx➛Account Id","type":"action","ref":"","reference_display":"Account Id","base_type":"string","parent_table_name":"x_snc_hconnector_tokenassociate","column_name":"account_id","choices":null,"attributes":{}},{"name":"{{action.tx.token.token_id}}","label":"action➛tx➛Token➛Token Id","type":"action","ref":"","reference_display":"Token Id","base_type":"string","parent_table_name":"x_snc_hconnector_token","column_name":"token_id","choices":null,"attributes":{}},{"name":"{{action.tx.account.account_id}}","label":"action➛tx➛Account➛Account Id","type":"action","ref":"","reference_display":"Account Id","base_type":"string","parent_table_name":"x_snc_hconnector_account","column_name":"account_id","choices":null,"attributes":{}},{"name":"{{action.account_id}}","label":"action➛account_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.topic}}","label":"action➛topic","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a986e187-d4cc-4aa9-84f1-3fa128cca92a].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[23cdc867-bd30-4f9c-95e2-861a044e11f2].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[23cdc867-bd30-4f9c-95e2-861a044e11f2].signatures}}","label":"step➛Script step➛signatures","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[23cdc867-bd30-4f9c-95e2-861a044e11f2].ret}}","label":"step➛Script step➛ret","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].__step_status__.code}}","label":"step➛SSH step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].__step_status__.message}}","label":"step➛SSH step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f4259c4a-166f-4279-9922-68e4da350234].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d221546-5bd4-443f-8d11-bf1207bd0840].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[064bc78e-32ae-4fe0-bf1b-a8bf899b4e5e].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[064bc78e-32ae-4fe0-bf1b-a8bf899b4e5e].transaction_id}}","label":"step➛Script step➛transaction_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[064bc78e-32ae-4fe0-bf1b-a8bf899b4e5e].transaction_hash}}","label":"step➛Script step➛transaction_hash","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[7724785c-1abb-4df1-b426-1ab036876d24].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f65eeeef-8859-49aa-93b0-c1d21df241f6].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[37684a22-e387-415d-a811-ab766cc240f2].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d2d03717-3d56-4d0a-b382-c13befeccc79].error_message}}","label":"step➛SSH step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d2d03717-3d56-4d0a-b382-c13befeccc79].output}}","label":"step➛SSH step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[69a9bbc2-98d6-4d66-be10-d3a455e74396].variable}}","label":"step➛Parse output➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[69a9bbc2-98d6-4d66-be10-d3a455e74396].account_id}}","label":"step➛Parse output➛account_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1a89c5e6-bec5-40cd-b69a-c50d5d85e15e].record.sys_id}}","label":"step➛Pin Account➛Account Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_snc_hconnector_account","column_name":"sys_id","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>7a8c6c4687700190baf50fa90cbb35ac</master_snapshot>
         <name>mintToken</name>
         <natlang/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 10:23:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dde5e8ca87300190baf50fa90cbb3596</sys_id>
-        <sys_mod_count>166</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>mintToken</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_dde5e8ca87300190baf50fa90cbb3596</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-26 12:32:03</sys_updated_on>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-01 11:15:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 10:51:57</sys_created_on>
         <sys_id>456c684687700190baf50fa90cbb359b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 09:30:01</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD786c68464c7001900e581939d502886d":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD786c68464c7001900e581939d502886d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"09f171b8-7a9c-4b62-a3c5-4de12fa193d3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD786c68464c7001900e581939d502886d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-01 11:15:06</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD786c68464c7001900e581939d502886d":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD786c68464c7001900e581939d502886d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"09f171b8-7a9c-4b62-a3c5-4de12fa193d3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD786c68464c7001900e581939d502886d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">056c684687700190baf50fa90cbb3570</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -162,18 +162,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3c6c684687700190baf50fa90cbb354d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3c6c684687700190baf50fa90cbb354d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-03 10:51:57</sys_created_on>
-        <sys_id>746c684687700190baf50fa90cbb356a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-03 10:51:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmdout</field>
         <id>3c6c684687700190baf50fa90cbb354d</id>
         <sys_created_by>admin</sys_created_by>
@@ -184,18 +172,6 @@
         <sys_updated_on>2022-01-11 15:22:32</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3c6c684687700190baf50fa90cbb354d</table>
         <value>{{step[d2d03717-3d56-4d0a-b382-c13befeccc79].output}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3c6c684687700190baf50fa90cbb354d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-03 10:51:57</sys_created_on>
-        <sys_id>386c684687700190baf50fa90cbb356a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-03 10:51:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ssh_err</field>
@@ -385,6 +361,9 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3c6c684687700190baf50fa90cbb354d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c6c684687700190baf50fa90cbb354d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3c6c684687700190baf50fa90cbb354d"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="mintToken">dde5e8ca87300190baf50fa90cbb3596</action>
         <cid>d2d03717-3d56-4d0a-b382-c13befeccc79</cid>
@@ -478,19 +457,21 @@
         <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d^id=c77b600687700190baf50fa90cbb35c9"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c77b600687700190baf50fa90cbb35c9"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c77b600687700190baf50fa90cbb35c9"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c77b600687700190baf50fa90cbb35c9^sys_idNOT IN1d947ae0878d49902560021a0cbb3599,529b909187014d902560021a0cbb3549"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
         <input_name>command</input_name>
         <instance>c77b600687700190baf50fa90cbb35c9</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"command":{"scriptActive":true,"script":"var tx \u003d new GlideRecord(\u0027x_snc_hconnector_tokenmint\u0027)\ntx.get(fd_data.action_inputs.tx)\n\nvar token \u003d new GlideRecord(\u0027x_snc_hconnector_token\u0027)\ntoken.get(tx.token)\n\nvar cmd \u003d \u0027./hcli token mint\u0027\n\nif (token.token_id) { cmd \u003d cmd + \u0027 --tokenid \u0027 + token.token_id }\nif (tx.amount) { cmd \u003d cmd +  \u0027 --amount \u0027 + tx.amount }\nif (tx.metadata) { cmd \u003d cmd + \" --metadata \u0027\" + tx.metadata +\"\u0027\"  }\n \nk \u003d tx.sign_with.toString().split(\u0027,\u0027)\n\nfor (i \u003d 0; i \u003c k.length; i++) {\n  kk \u003d new GlideRecord(\u0027x_snc_hconnector_key\u0027)\n  kk.get(k[i])\n  cmd \u003d cmd + \u0027 --sign \u0027 + kk.public_key \n}\n\nreturn cmd/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <script>{"command":{"scriptActive":true,"script":"var tx \u003d new GlideRecord(\u0027x_snc_hconnector_tokenmint\u0027)\ntx.get(fd_data.action_inputs.tx)\n\nvar token \u003d new GlideRecord(\u0027x_snc_hconnector_token\u0027)\ntoken.get(tx.token)\n\nvar cmd \u003d \u0027./hcli token mint\u0027\n\nif (token.token_id) { cmd \u003d cmd + \u0027 --tokenid \u0027 + token.token_id }\nif (tx.amount) { cmd \u003d cmd +  \u0027 --amount \u0027 + tx.amount }\nif (tx.metadata) { cmd \u003d cmd + \" --metadata \u0027\" + tx.metadata +\"\u0027\"  }\n \nk \u003d tx.sign_with.toString().split(\u0027,\u0027)\n\nfor (i \u003d 0; i \u003c k.length; i++) {\n  kk \u003d new GlideRecord(\u0027x_snc_hconnector_key\u0027)\n  kk.get(k[i])\n  cmd \u003d cmd + \u0027 --sign \u0027 + kk.public_key \n}\n\nreturn cmd"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 15:11:48</sys_created_on>
         <sys_id>1d947ae0878d49902560021a0cbb3599</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 09:33:21</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-01 11:15:05</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -505,6 +486,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-13 11:58:50</sys_updated_on>
     </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c77b600687700190baf50fa90cbb35c9"/>
     <sys_hub_action_input action="delete_multiple" query="model=dde5e8ca87300190baf50fa90cbb3596^sys_idNOT INb67bacc287700190baf50fa90cbb35b8"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -587,6 +569,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b67bacc287700190baf50fa90cbb35b8"/>
     <sys_hub_action_output action="delete_multiple" query="model=dde5e8ca87300190baf50fa90cbb3596^sys_idNOT IN056c684687700190baf50fa90cbb3570,416c684687700190baf50fa90cbb3578,816c684687700190baf50fa90cbb358a,856c684687700190baf50fa90cbb3583,8d6c684687700190baf50fa90cbb3590"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -671,6 +654,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=056c684687700190baf50fa90cbb3570"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=056c684687700190baf50fa90cbb3570"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -754,6 +739,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=416c684687700190baf50fa90cbb3578"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=416c684687700190baf50fa90cbb3578"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -837,6 +824,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=816c684687700190baf50fa90cbb358a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=816c684687700190baf50fa90cbb358a^sys_idNOT IN016c684687700190baf50fa90cbb359a"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -934,6 +922,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=856c684687700190baf50fa90cbb3583"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=856c684687700190baf50fa90cbb3583^sys_idNOT IN096c684687700190baf50fa90cbb3599"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1031,6 +1020,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d6c684687700190baf50fa90cbb3590"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8d6c684687700190baf50fa90cbb3590^sys_idNOT IN056c684687700190baf50fa90cbb359a"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1045,6 +1035,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-03 10:51:57</sys_updated_on>
     </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=dde5e8ca87300190baf50fa90cbb3596"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=dde5e8ca87300190baf50fa90cbb3596^sys_idNOT IN0f7b600687700190baf50fa90cbb35df"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="mintToken">dde5e8ca87300190baf50fa90cbb3596</action_type_id>
@@ -1055,6 +1046,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-03 10:48:00</sys_updated_on>
     </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=0f7b600687700190baf50fa90cbb35df"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_dde5e8ca87300190baf50fa90cbb3596^sys_idNOT IN0f7b600687700190baf50fa90cbb35c6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>tx</element>
@@ -1079,6 +1071,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_dde5e8ca87300190baf50fa90cbb3596"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_dde5e8ca87300190baf50fa90cbb3596^sys_idNOT IN4d6c684687700190baf50fa90cbb3576,816c684687700190baf50fa90cbb3582,856c684687700190baf50fa90cbb3596,896c684687700190baf50fa90cbb358f,8d6c684687700190baf50fa90cbb3588"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
@@ -1195,6 +1188,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_dde5e8ca87300190baf50fa90cbb3596"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=dde5e8ca87300190baf50fa90cbb3596^sys_idNOT INe38cac4687700190baf50fa90cbb35e5"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="mintToken">dde5e8ca87300190baf50fa90cbb3596</action_id>
@@ -1371,18 +1365,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=728c6c4687700190baf50fa90cbb35c9"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>728c6c4687700190baf50fa90cbb35c9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-03 10:52:37</sys_created_on>
-        <sys_id>768c6c4687700190baf50fa90cbb35fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-03 10:52:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmdout</field>
         <id>728c6c4687700190baf50fa90cbb35c9</id>
         <sys_created_by>admin</sys_created_by>
@@ -1393,18 +1375,6 @@
         <sys_updated_on>2022-01-11 15:22:39</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_728c6c4687700190baf50fa90cbb35c9</table>
         <value>{{step[d2d03717-3d56-4d0a-b382-c13befeccc79].output}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>728c6c4687700190baf50fa90cbb35c9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-03 10:52:37</sys_created_on>
-        <sys_id>3a8c6c4687700190baf50fa90cbb35fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-03 10:52:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ssh_err</field>
@@ -1594,6 +1564,9 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=728c6c4687700190baf50fa90cbb35c9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=728c6c4687700190baf50fa90cbb35c9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_728c6c4687700190baf50fa90cbb35c9"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="mintToken">7a8c6c4687700190baf50fa90cbb35ac</action>
         <cid>d2d03717-3d56-4d0a-b382-c13befeccc79</cid>
@@ -1687,6 +1660,8 @@
         <variable display_value="Command">7c1e5b2473332300673d94596bf6a76b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d^id=ba8c6c4687700190baf50fa90cbb35bd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ba8c6c4687700190baf50fa90cbb35bd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ba8c6c4687700190baf50fa90cbb35bd"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ba8c6c4687700190baf50fa90cbb35bd^sys_idNOT IN1f94bae0878d49902560021a0cbb35ce,d8abd09187014d902560021a0cbb35f5"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1714,6 +1689,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-13 11:58:58</sys_updated_on>
     </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ba8c6c4687700190baf50fa90cbb35bd"/>
     <sys_hub_action_input action="delete_multiple" query="model=7a8c6c4687700190baf50fa90cbb35ac^sys_idNOT IN368c6c4687700190baf50fa90cbb35b0"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1796,6 +1772,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=368c6c4687700190baf50fa90cbb35b0"/>
     <sys_hub_action_output action="delete_multiple" query="model=7a8c6c4687700190baf50fa90cbb35ac^sys_idNOT IN368cac4687700190baf50fa90cbb3508,c38cac4687700190baf50fa90cbb3513,cb8cac4687700190baf50fa90cbb3520,cf8cac4687700190baf50fa90cbb3519,fa8cac4687700190baf50fa90cbb3500"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1880,6 +1857,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=368cac4687700190baf50fa90cbb3508"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=368cac4687700190baf50fa90cbb3508"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1963,6 +1942,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c38cac4687700190baf50fa90cbb3513"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c38cac4687700190baf50fa90cbb3513^sys_idNOT IN478cac4687700190baf50fa90cbb3529"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2060,6 +2040,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cb8cac4687700190baf50fa90cbb3520"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cb8cac4687700190baf50fa90cbb3520^sys_idNOT IN4f8cac4687700190baf50fa90cbb3529"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2157,6 +2138,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cf8cac4687700190baf50fa90cbb3519"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cf8cac4687700190baf50fa90cbb3519^sys_idNOT IN4b8cac4687700190baf50fa90cbb3529"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2254,6 +2236,9 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fa8cac4687700190baf50fa90cbb3500"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa8cac4687700190baf50fa90cbb3500"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7a8c6c4687700190baf50fa90cbb35ac"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=7a8c6c4687700190baf50fa90cbb35ac^sys_idNOT IN478cac4687700190baf50fa90cbb352d"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="mintToken">7a8c6c4687700190baf50fa90cbb35ac</action_type_id>
@@ -2264,6 +2249,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-03 10:52:38</sys_updated_on>
     </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=478cac4687700190baf50fa90cbb352d"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7a8c6c4687700190baf50fa90cbb35ac^sys_idNOT INb28c6c4687700190baf50fa90cbb35bb"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>tx</element>
@@ -2278,7 +2264,7 @@
         <sys_created_on>2022-01-03 10:52:37</sys_created_on>
         <sys_id>b28c6c4687700190baf50fa90cbb35bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>tx</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2288,6 +2274,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7a8c6c4687700190baf50fa90cbb35ac"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7a8c6c4687700190baf50fa90cbb35ac^sys_idNOT IN328cac4687700190baf50fa90cbb3507,c38cac4687700190baf50fa90cbb3526,c78cac4687700190baf50fa90cbb351f,cb8cac4687700190baf50fa90cbb3518,cf8cac4687700190baf50fa90cbb3511"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
@@ -2302,7 +2289,7 @@
         <sys_created_on>2022-01-03 10:52:38</sys_created_on>
         <sys_id>328cac4687700190baf50fa90cbb3507</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2325,7 +2312,7 @@
         <sys_created_on>2022-01-03 10:52:38</sys_created_on>
         <sys_id>c38cac4687700190baf50fa90cbb3526</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2348,7 +2335,7 @@
         <sys_created_on>2022-01-03 10:52:38</sys_created_on>
         <sys_id>c78cac4687700190baf50fa90cbb351f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>transaction_hash</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2371,7 +2358,7 @@
         <sys_created_on>2022-01-03 10:52:38</sys_created_on>
         <sys_id>cb8cac4687700190baf50fa90cbb3518</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>transaction_id</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2394,7 +2381,7 @@
         <sys_created_on>2022-01-03 10:52:38</sys_created_on>
         <sys_id>cf8cac4687700190baf50fa90cbb3511</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2404,6 +2391,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_7a8c6c4687700190baf50fa90cbb35ac"/>
     <sys_hub_action_type_definition action="update">
         <sys_id>dde5e8ca87300190baf50fa90cbb3596</sys_id>
         <latest_snapshot>7a8c6c4687700190baf50fa90cbb35ac</latest_snapshot>

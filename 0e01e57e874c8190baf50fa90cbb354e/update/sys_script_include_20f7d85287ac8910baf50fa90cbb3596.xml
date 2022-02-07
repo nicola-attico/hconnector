@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <active>false</active>
+        <active>true</active>
         <api_name>x_snc_hconnector.ECCCommand</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
@@ -13,9 +13,10 @@ var ECCCommand = Class.create();
 ECCCommand.prototype = {
     run: function(server, command) {
         var ecc_queue = new GlideRecord("ecc_queue");
+        var xmlDoc = new XMLDocument2()
         ecc_queue.initialize();
         ecc_queue.agent = "mid.server." + server;
-        ecc_queue.payload = '<parameters><parameter name="name" value="' + command + '"/></parameters>';
+        ecc_queue.payload = '<parameters><parameter name="name" value="' + this.encode(command) + '"/></parameters>';
         ecc_queue.queue = "output";
         ecc_queue.topic = "Command";
         var ecc_sysid = ecc_queue.insert();
@@ -23,8 +24,8 @@ ECCCommand.prototype = {
 
         var response_sysid;
         var ecc_response = new GlideRecord("ecc_queue");
-        for (i = 0; i < 60; i++) {
-            gs.sleep(1000);
+        for (i = 0; i < 600; i++) {
+            global.sleep(1000);
             ecc_response.addQuery("response_to", ecc_sysid);
             ecc_response.addQuery("queue", "input");
             ecc_response.query();
@@ -39,19 +40,33 @@ ECCCommand.prototype = {
         }
     },
 
+    encode: function(x) {
+        return x.replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&apos;')
+    },
+    decode: function(x) {
+        return x.replace(/&apos;/g, "'")
+            .replace(/&quot;/g, '"')
+            .replace(/&gt;/g, '>')
+            .replace(/&lt;/g, '<')
+            .replace(/&amp;/g, '&')
+    },
     type: 'ECCCommand'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-22 17:45:48</sys_created_on>
         <sys_id>20f7d85287ac8910baf50fa90cbb3596</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>ECCCommand</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_include_20f7d85287ac8910baf50fa90cbb3596</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-28 10:43:55</sys_updated_on>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-04 14:02:54</sys_updated_on>
     </sys_script_include>
 </record_update>

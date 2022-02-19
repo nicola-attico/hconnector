@@ -3,32 +3,32 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">33e05b99879941102560021a0cbb352f</list_id>
+            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94412cd91b298d10c5efa6c8b04bcbc7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-26 11:26:49</sys_created_on>
-            <sys_id>3be05b99879941102560021a0cbb352f</sys_id>
+            <sys_created_on>2022-02-07 08:54:56</sys_created_on>
+            <sys_id>d4412cd91b298d10c5efa6c8b04bcbc8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-26 11:26:49</sys_updated_on>
+            <sys_updated_on>2022-02-07 08:54:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>account_id</element>
-            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">33e05b99879941102560021a0cbb352f</list_id>
+            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94412cd91b298d10c5efa6c8b04bcbc7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-26 11:26:49</sys_created_on>
-            <sys_id>bbe05b99879941102560021a0cbb352f</sys_id>
+            <sys_created_on>2022-02-07 08:54:56</sys_created_on>
+            <sys_id>9c412cd91b298d10c5efa6c8b04bcbc8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-26 11:26:49</sys_updated_on>
+            <sys_updated_on>2022-02-07 08:54:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

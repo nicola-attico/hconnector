@@ -18,7 +18,7 @@
                 var inputs = {};
                 inputs['account_id'] = gr.account_id; // String 
 
-                var result = sn_fd.FlowAPI.getRunner().action('x_snc_hconnector.queryaccountbalance').inForeground().withInputs(inputs).run();
+                var result = sn_fd.FlowAPI.getRunner().action('x_snc_hconnector.queryaccountbalance2').inForeground().withInputs(inputs).run();
                 var outputs = result.getOutputs();
 
                 var out = outputs['out'];
@@ -63,14 +63,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>35c0e4a3871c0dd0baf50fa90cbb35b6</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Balance</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_vtable_35c0e4a3871c0dd0baf50fa90cbb35b6</sys_update_name>
-        <sys_updated_by>nicola.attico</sys_updated_by>
-        <sys_updated_on>2022-02-04 10:25:36</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-19 17:20:21</sys_updated_on>
         <table>x_snc_hconnector_st_balances</table>
     </sys_script_vtable>
 </record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Transaction" max_length="40" name="x_snc_hconnector_transaction" sizeclass="69" type="collection">
+    <element label="Transaction" max_length="40" name="x_snc_hconnector_transaction" sizeclass="108" type="collection">
         <element label="Flow code" max_length="100" name="flow_code" type="string_full_utf8"/>
         <element label="Flow Message" max_length="1000" name="flow_message" type="string_full_utf8"/>
         <element label="Hedera Status" max_length="200" name="hedera_status" type="string_full_utf8"/>
@@ -11,8 +11,10 @@
         <element label="Sign With" max_length="4000" name="sign_with" reference="x_snc_hconnector_key" type="glide_list"/>
         <element choice="3" default="new" label="Status" max_length="40" name="status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="processing" value="processing"/>
                 <element inactive_on_update="false" label="draft" sequence="10" value="draft"/>
                 <element inactive_on_update="false" label="new" sequence="20" value="new"/>
+                <element inactive_on_update="false" label="done" sequence="25" value="done"/>
                 <element inactive_on_update="false" label="completed" sequence="30" value="completed"/>
                 <element inactive_on_update="false" label="failed" sequence="40" value="failed"/>
             </choice>

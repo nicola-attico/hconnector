@@ -11,14 +11,16 @@
 
 var ECCCommand = Class.create();
 ECCCommand.prototype = {
-    run: function(server, command) {
+    run: function(server, command, correlator) {
         var ecc_queue = new GlideRecord("ecc_queue");
-        var xmlDoc = new XMLDocument2()
+        var xmlDoc = new XMLDocument2();
         ecc_queue.initialize();
         ecc_queue.agent = "mid.server." + server;
-        ecc_queue.payload = '<parameters><parameter name="name" value="' + this.encode(command) + '"/></parameters>';
+        ecc_queue.payload = '<parameters><parameter name="name" value="' + this.encode(command) + '"/></parameters>';	
         ecc_queue.queue = "output";
         ecc_queue.topic = "Command";
+		ecc_queue.source = "hconnector";
+		ecc_queue.agent_correlator = correlator;
         var ecc_sysid = ecc_queue.insert();
         gs.debug("ecc_sysid:" + ecc_sysid);
 
@@ -32,14 +34,26 @@ ECCCommand.prototype = {
             if (ecc_response.next()) {
                 response_sysid = ecc_response.sys_id;
                 response_payload_xml = ecc_response.payload;
-
                 xmlDoc.parseXML(response_payload_xml);
                 var myResponse = xmlDoc.getFirstNode('/results/result/stdout').getTextContent().toString();
                 return myResponse;
             }
-        }
+        } 
     },
 
+	    runAsync: function(server, command, correlator) {
+        var ecc_queue = new GlideRecord("ecc_queue");
+        var xmlDoc = new XMLDocument2();
+        ecc_queue.initialize();
+        ecc_queue.agent = "mid.server." + server;
+        ecc_queue.payload = '<parameters><parameter name="name" value="' + this.encode(command) + '"/></parameters>';	
+        ecc_queue.queue = "output";
+        ecc_queue.topic = "Command";
+		ecc_queue.source = "hconnectorAsync"
+		ecc_queue.agent_correlator = correlator;
+        var ecc_sysid = ecc_queue.insert();
+    },
+	
     encode: function(x) {
         return x.replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
@@ -60,13 +74,13 @@ ECCCommand.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-22 17:45:48</sys_created_on>
         <sys_id>20f7d85287ac8910baf50fa90cbb3596</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>ECCCommand</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_include_20f7d85287ac8910baf50fa90cbb3596</sys_update_name>
-        <sys_updated_by>nicola.attico</sys_updated_by>
-        <sys_updated_on>2022-02-04 14:02:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-18 14:47:28</sys_updated_on>
     </sys_script_include>
 </record_update>

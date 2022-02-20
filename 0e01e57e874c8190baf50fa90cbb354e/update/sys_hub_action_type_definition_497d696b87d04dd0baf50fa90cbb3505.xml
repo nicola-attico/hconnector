@@ -8,7 +8,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-rome-06-23-2021__patch4-11-17-2021_12-08-2021_0100.zip</compiler_build>
+        <compiler_build>glide-rome-06-23-2021__patch4-hotfix1a-12-17-2021_01-11-2022_1246.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>497d696b87d04dd0baf50fa90cbb3505</sys_id>
-        <sys_mod_count>235</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>transferToken</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_497d696b87d04dd0baf50fa90cbb3505</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 12:47:44</sys_updated_on>
+        <sys_updated_on>2022-02-01 10:11:28</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -295,18 +295,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ed61171687bc8d502560021a0cbb35db"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>ed61171687bc8d502560021a0cbb35db</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-04 17:31:22</sys_created_on>
-        <sys_id>b161571687bc8d502560021a0cbb3530</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-04 17:31:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmdout</field>
         <id>ed61171687bc8d502560021a0cbb35db</id>
         <sys_created_by>admin</sys_created_by>
@@ -317,18 +305,6 @@
         <sys_updated_on>2022-01-04 17:31:22</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_ed61171687bc8d502560021a0cbb35db</table>
         <value>{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].output}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>ed61171687bc8d502560021a0cbb35db</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-04 17:31:22</sys_created_on>
-        <sys_id>7961571687bc8d502560021a0cbb3530</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-04 17:31:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tx</field>
@@ -1070,7 +1046,7 @@
         <sys_created_on>2021-12-14 11:13:44</sys_created_on>
         <sys_id>499179ef87d04dd0baf50fa90cbb35d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>tx</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -1094,7 +1070,7 @@
         <sys_created_on>2021-12-14 11:09:32</sys_created_on>
         <sys_id>2f9075af87d04dd0baf50fa90cbb353b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -1117,7 +1093,7 @@
         <sys_created_on>2021-12-14 11:09:33</sys_created_on>
         <sys_id>6f9075af87d04dd0baf50fa90cbb3547</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -1140,7 +1116,7 @@
         <sys_created_on>2021-12-27 20:53:53</sys_created_on>
         <sys_id>8a03b27f87a00550baf50fa90cbb3508</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>transaction_id</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -1163,7 +1139,7 @@
         <sys_created_on>2021-12-27 20:53:53</sys_created_on>
         <sys_id>9603b27f87a00550baf50fa90cbb350f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>transaction_hash</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -1186,7 +1162,7 @@
         <sys_created_on>2021-12-23 06:38:56</sys_created_on>
         <sys_id>e7f8071687acc910baf50fa90cbb3516</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>out</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -1505,18 +1481,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=19f1d35687bc8d502560021a0cbb3508"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>19f1d35687bc8d502560021a0cbb3508</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-04 17:33:48</sys_created_on>
-        <sys_id>69f1d35687bc8d502560021a0cbb351b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-04 17:33:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmdout</field>
         <id>19f1d35687bc8d502560021a0cbb3508</id>
         <sys_created_by>admin</sys_created_by>
@@ -1527,18 +1491,6 @@
         <sys_updated_on>2022-01-04 17:33:49</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_19f1d35687bc8d502560021a0cbb3508</table>
         <value>{{step[2ce5b5f0-78f4-421f-acc1-8427b0dd4243].output}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>19f1d35687bc8d502560021a0cbb3508</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-04 17:33:48</sys_created_on>
-        <sys_id>2df1d35687bc8d502560021a0cbb351b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-04 17:33:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tx</field>
@@ -2280,7 +2232,7 @@
         <sys_created_on>2021-12-14 11:13:48</sys_created_on>
         <sys_id>0291b9ef87d04dd0baf50fa90cbb35b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>tx</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2304,7 +2256,7 @@
         <sys_created_on>2021-12-27 20:54:00</sys_created_on>
         <sys_id>3303f27f87a00550baf50fa90cbb3547</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>transaction_hash</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2327,7 +2279,7 @@
         <sys_created_on>2021-12-27 20:54:00</sys_created_on>
         <sys_id>3703f27f87a00550baf50fa90cbb3540</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>transaction_id</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2350,7 +2302,7 @@
         <sys_created_on>2021-12-14 11:13:48</sys_created_on>
         <sys_id>8e91b9ef87d04dd0baf50fa90cbb35e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2373,7 +2325,7 @@
         <sys_created_on>2021-12-23 06:39:02</sys_created_on>
         <sys_id>b009471687acc910baf50fa90cbb3573</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>out</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
@@ -2396,7 +2348,7 @@
         <sys_created_on>2021-12-14 11:13:48</sys_created_on>
         <sys_id>c291b9ef87d04dd0baf50fa90cbb35d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>

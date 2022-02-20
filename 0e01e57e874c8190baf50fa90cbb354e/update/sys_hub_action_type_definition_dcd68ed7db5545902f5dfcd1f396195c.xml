@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dcd68ed7db5545902f5dfcd1f396195c</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>query_topic</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_dcd68ed7db5545902f5dfcd1f396195c</sys_update_name>
-        <sys_updated_by>nicola.attico</sys_updated_by>
-        <sys_updated_on>2022-02-02 15:57:25</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 08:50:47</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -186,8 +186,6 @@
         <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d^id=a037469bdb5545902f5dfcd1f3961910"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=a037469bdb5545902f5dfcd1f3961910"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=a037469bdb5545902f5dfcd1f3961910"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a037469bdb5545902f5dfcd1f3961910^sys_idNOT IN2437469bdb5545902f5dfcd1f396191e,2c37469bdb5545902f5dfcd1f396191e"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -215,7 +213,6 @@
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:29:50</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a037469bdb5545902f5dfcd1f3961910"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="query_topic">dcd68ed7db5545902f5dfcd1f396195c</action>
         <cid>a911b912-66e7-4060-a023-6691d65cdd49</cid>
@@ -280,18 +277,6 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d98098fbdbd5c9902f5dfcd1f3961909"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d98098fbdbd5c9902f5dfcd1f3961909</id>
-        <sys_created_by>nicola.attico</sys_created_by>
-        <sys_created_on>2022-02-02 15:50:58</sys_created_on>
-        <sys_id>e98098fbdbd5c9902f5dfcd1f3961939</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nicola.attico</sys_updated_by>
-        <sys_updated_on>2022-02-02 15:50:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>begin</field>
         <id>d98098fbdbd5c9902f5dfcd1f3961909</id>
         <sys_created_by>nicola.attico</sys_created_by>
@@ -314,18 +299,6 @@ outputs.cmd = cmd
         <sys_updated_on>2022-02-02 15:50:58</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_d98098fbdbd5c9902f5dfcd1f3961909</table>
         <value>{{action.end}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d98098fbdbd5c9902f5dfcd1f3961909</id>
-        <sys_created_by>nicola.attico</sys_created_by>
-        <sys_created_on>2022-02-02 15:50:58</sys_created_on>
-        <sys_id>a18098fbdbd5c9902f5dfcd1f396193a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nicola.attico</sys_updated_by>
-        <sys_updated_on>2022-02-02 15:50:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>start</field>
@@ -679,7 +652,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=d98098fbdbd5c9902f5dfcd1f3961909"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d98098fbdbd5c9902f5dfcd1f3961909^sys_idNOT INe18098fbdbd5c9902f5dfcd1f3961928"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>cmd</element>
@@ -694,11 +666,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-02 15:50:58</sys_created_on>
         <sys_id>e18098fbdbd5c9902f5dfcd1f3961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cmd</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d98098fbdbd5c9902f5dfcd1f3961909_cmd_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-02 15:50:58</sys_updated_on>
         <url/>
@@ -786,7 +758,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=198098fbdbd5c9902f5dfcd1f3961900"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -868,7 +839,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=80a7421fdb5545902f5dfcd1f3961924"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -950,7 +920,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=adf11873db19c9902f5dfcd1f3961900"/>
     <sys_hub_action_output action="delete_multiple" query="model=dcd68ed7db5545902f5dfcd1f396195c^sys_idNOT IN486782dbdb5545902f5dfcd1f3961900,4c6742dbdb5545902f5dfcd1f39619f7,87b98617db9545902f5dfcd1f3961913"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1035,8 +1004,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=486782dbdb5545902f5dfcd1f3961900"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=486782dbdb5545902f5dfcd1f3961900"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1120,8 +1087,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4c6742dbdb5545902f5dfcd1f39619f7"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=4c6742dbdb5545902f5dfcd1f39619f7"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1205,9 +1170,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=87b98617db9545902f5dfcd1f3961913"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=87b98617db9545902f5dfcd1f3961913"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=dcd68ed7db5545902f5dfcd1f396195c"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=dcd68ed7db5545902f5dfcd1f396195c^sys_idNOT IN6037469bdb5545902f5dfcd1f3961926"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="query_topic">dcd68ed7db5545902f5dfcd1f396195c</action_type_id>
@@ -1218,7 +1180,6 @@ outputs.cmd = cmd
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:12:30</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=6037469bdb5545902f5dfcd1f3961926"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_dcd68ed7db5545902f5dfcd1f396195c^sys_idNOT IN4ca7421fdb5545902f5dfcd1f396193b,d58098fbdbd5c9902f5dfcd1f3961906,f5f11873db19c9902f5dfcd1f3961907"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>topic</element>
@@ -1233,11 +1194,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:14:22</sys_created_on>
         <sys_id>4ca7421fdb5545902f5dfcd1f396193b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>topic</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_dcd68ed7db5545902f5dfcd1f396195c_topic_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:14:22</sys_updated_on>
         <url/>
@@ -1256,11 +1217,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-02 15:50:57</sys_created_on>
         <sys_id>d58098fbdbd5c9902f5dfcd1f3961906</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>end</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_dcd68ed7db5545902f5dfcd1f396195c_end_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-02 15:50:57</sys_updated_on>
         <url/>
@@ -1279,17 +1240,16 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-02 15:57:15</sys_created_on>
         <sys_id>f5f11873db19c9902f5dfcd1f3961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>start</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_dcd68ed7db5545902f5dfcd1f396195c_start_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-02 15:57:15</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_dcd68ed7db5545902f5dfcd1f396195c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_dcd68ed7db5545902f5dfcd1f396195c^sys_idNOT IN006782dbdb5545902f5dfcd1f3961918,806742dbdb5545902f5dfcd1f39619ff,c7b98617db9545902f5dfcd1f3961926"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
@@ -1304,11 +1264,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:13:16</sys_created_on>
         <sys_id>006782dbdb5545902f5dfcd1f3961918</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_dcd68ed7db5545902f5dfcd1f396195c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:13:16</sys_updated_on>
         <url/>
@@ -1327,11 +1287,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:13:16</sys_created_on>
         <sys_id>806742dbdb5545902f5dfcd1f39619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_dcd68ed7db5545902f5dfcd1f396195c___action_status___en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:13:16</sys_updated_on>
         <url/>
@@ -1350,17 +1310,16 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:23:35</sys_created_on>
         <sys_id>c7b98617db9545902f5dfcd1f3961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>stdout</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_dcd68ed7db5545902f5dfcd1f396195c_stdout_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:23:35</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_dcd68ed7db5545902f5dfcd1f396195c"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=dcd68ed7db5545902f5dfcd1f396195c^sys_idNOT INf8c90a17db9545902f5dfcd1f39619dd"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="query_topic">dcd68ed7db5545902f5dfcd1f396195c</action_id>
@@ -1561,8 +1520,6 @@ outputs.cmd = cmd
         <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d^id=14c9c617db9545902f5dfcd1f396199d"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=14c9c617db9545902f5dfcd1f396199d"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=14c9c617db9545902f5dfcd1f396199d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=14c9c617db9545902f5dfcd1f396199d^sys_idNOT IN54c9c617db9545902f5dfcd1f39619a4,5cc9c617db9545902f5dfcd1f39619a4"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1590,7 +1547,6 @@ outputs.cmd = cmd
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 12:49:41</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_14c9c617db9545902f5dfcd1f396199d"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="query_topic">9cc9c617db9545902f5dfcd1f396194c</action>
         <cid>a911b912-66e7-4060-a023-6691d65cdd49</cid>
@@ -1655,18 +1611,6 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a7e0547fdbd5c9902f5dfcd1f39619f8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>a7e0547fdbd5c9902f5dfcd1f39619f8</id>
-        <sys_created_by>nicola.attico</sys_created_by>
-        <sys_created_on>2022-02-02 15:52:45</sys_created_on>
-        <sys_id>bfe0947fdbd5c9902f5dfcd1f3961932</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nicola.attico</sys_updated_by>
-        <sys_updated_on>2022-02-02 15:52:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>begin</field>
         <id>a7e0547fdbd5c9902f5dfcd1f39619f8</id>
         <sys_created_by>nicola.attico</sys_created_by>
@@ -1689,18 +1633,6 @@ outputs.cmd = cmd
         <sys_updated_on>2022-02-02 15:52:45</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_a7e0547fdbd5c9902f5dfcd1f39619f8</table>
         <value>{{action.end}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>a7e0547fdbd5c9902f5dfcd1f39619f8</id>
-        <sys_created_by>nicola.attico</sys_created_by>
-        <sys_created_on>2022-02-02 15:52:45</sys_created_on>
-        <sys_id>ffe0947fdbd5c9902f5dfcd1f396194b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nicola.attico</sys_updated_by>
-        <sys_updated_on>2022-02-02 15:52:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>start</field>
@@ -2054,7 +1986,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=a7e0547fdbd5c9902f5dfcd1f39619f8"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a7e0547fdbd5c9902f5dfcd1f39619f8^sys_idNOT INbbe0947fdbd5c9902f5dfcd1f396192e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>cmd</element>
@@ -2069,11 +2000,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-02 15:52:45</sys_created_on>
         <sys_id>bbe0947fdbd5c9902f5dfcd1f396192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cmd</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a7e0547fdbd5c9902f5dfcd1f39619f8_cmd_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-02 15:52:45</sys_updated_on>
         <url/>
@@ -2161,7 +2092,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9cc9c617db9545902f5dfcd1f396198e"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2243,7 +2173,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=abe0547fdbd5c9902f5dfcd1f39619ef"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2325,7 +2254,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f7f1d873db19c9902f5dfcd1f3961956"/>
     <sys_hub_action_output action="delete_multiple" query="model=9cc9c617db9545902f5dfcd1f396194c^sys_idNOT IN60c9c617db9545902f5dfcd1f39619c1,68c9c617db9545902f5dfcd1f39619fe,a0c9c617db9545902f5dfcd1f39619b9"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2410,8 +2338,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=60c9c617db9545902f5dfcd1f39619c1"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=60c9c617db9545902f5dfcd1f39619c1"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2495,8 +2421,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=68c9c617db9545902f5dfcd1f39619fe"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=68c9c617db9545902f5dfcd1f39619fe"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2580,9 +2504,6 @@ outputs.cmd = cmd
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a0c9c617db9545902f5dfcd1f39619b9"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=a0c9c617db9545902f5dfcd1f39619b9"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9cc9c617db9545902f5dfcd1f396194c"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9cc9c617db9545902f5dfcd1f396194c^sys_idNOT IN6cc90a17db9545902f5dfcd1f396191c"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="query_topic">9cc9c617db9545902f5dfcd1f396194c</action_type_id>
@@ -2593,7 +2514,6 @@ outputs.cmd = cmd
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:23:41</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=6cc90a17db9545902f5dfcd1f396191c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9cc9c617db9545902f5dfcd1f396194c^sys_idNOT IN37f1d873db19c9902f5dfcd1f396195c,d8c9c617db9545902f5dfcd1f396199a,e7e0547fdbd5c9902f5dfcd1f39619f5"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>start</element>
@@ -2608,11 +2528,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-02 15:57:24</sys_created_on>
         <sys_id>37f1d873db19c9902f5dfcd1f396195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>start</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9cc9c617db9545902f5dfcd1f396194c_start_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-02 15:57:24</sys_updated_on>
         <url/>
@@ -2631,11 +2551,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:23:40</sys_created_on>
         <sys_id>d8c9c617db9545902f5dfcd1f396199a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>topic</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9cc9c617db9545902f5dfcd1f396194c_topic_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:23:40</sys_updated_on>
         <url/>
@@ -2654,17 +2574,16 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-02 15:52:44</sys_created_on>
         <sys_id>e7e0547fdbd5c9902f5dfcd1f39619f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>end</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9cc9c617db9545902f5dfcd1f396194c_end_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-02 15:52:44</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9cc9c617db9545902f5dfcd1f396194c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9cc9c617db9545902f5dfcd1f396194c^sys_idNOT INa4c9c617db9545902f5dfcd1f39619cb,a8c9c617db9545902f5dfcd1f39619bf,e4c90a17db9545902f5dfcd1f3961904"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
@@ -2679,11 +2598,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:23:41</sys_created_on>
         <sys_id>a4c9c617db9545902f5dfcd1f39619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9cc9c617db9545902f5dfcd1f396194c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:23:41</sys_updated_on>
         <url/>
@@ -2702,11 +2621,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:23:41</sys_created_on>
         <sys_id>a8c9c617db9545902f5dfcd1f39619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9cc9c617db9545902f5dfcd1f396194c___action_status___en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:23:41</sys_updated_on>
         <url/>
@@ -2725,17 +2644,16 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-01 11:23:41</sys_created_on>
         <sys_id>e4c90a17db9545902f5dfcd1f3961904</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>stdout</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9cc9c617db9545902f5dfcd1f396194c_stdout_en</sys_update_name>
         <sys_updated_by>nicola.attico</sys_updated_by>
         <sys_updated_on>2022-02-01 11:23:41</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9cc9c617db9545902f5dfcd1f396194c"/>
     <sys_hub_action_type_definition action="update">
         <sys_id>dcd68ed7db5545902f5dfcd1f396195c</sys_id>
         <latest_snapshot>9cc9c617db9545902f5dfcd1f396194c</latest_snapshot>

@@ -19,7 +19,7 @@ ECCCommand.prototype = {
         ecc_queue.payload = '<parameters><parameter name="name" value="' + this.encode(command) + '"/></parameters>';	
         ecc_queue.queue = "output";
         ecc_queue.topic = "Command";
-		ecc_queue.source = "hconnector";
+		ecc_queue.source = "hconnectorSync";
 		ecc_queue.agent_correlator = correlator;
         var ecc_sysid = ecc_queue.insert();
         gs.debug("ecc_sysid:" + ecc_sysid);
@@ -74,13 +74,13 @@ ECCCommand.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-22 17:45:48</sys_created_on>
         <sys_id>20f7d85287ac8910baf50fa90cbb3596</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>ECCCommand</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_include_20f7d85287ac8910baf50fa90cbb3596</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-18 14:47:28</sys_updated_on>
+        <sys_updated_on>2022-02-20 03:22:15</sys_updated_on>
     </sys_script_include>
 </record_update>

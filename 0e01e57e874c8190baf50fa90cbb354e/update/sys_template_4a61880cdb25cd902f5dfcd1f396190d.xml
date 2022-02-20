@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
     <sys_template action="INSERT_OR_UPDATE">
         <active>true</active>
         <global>false</global>
@@ -15,7 +15,6 @@
         <sys_class_name>sys_template</sys_class_name>
         <sys_created_by>nicola.attico</sys_created_by>
         <sys_created_on>2022-02-03 09:24:04</sys_created_on>
-        <sys_domain>global</sys_domain>
         <sys_id>4a61880cdb25cd902f5dfcd1f396190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>TEMPLATE2</sys_name>
@@ -27,7 +26,7 @@
         <sys_updated_on>2022-02-03 09:24:04</sys_updated_on>
         <table>ecc_queue</table>
         <template>agent=mid.server.ie-bof1^payload=&lt;parameters&gt;&lt;parameter name="name" value="./hcli topic query --start 0 --end now  --topicid 0.0.29592768 "/&gt;&lt;/parameters&gt;^queue=output^topic=Command^EQ</template>
-        <user display_value="Nicola Attico">87c5ef09dbcd09102f5dfcd1f39619f7</user>
+        <user display_value="">87c5ef09dbcd09102f5dfcd1f39619f7</user>
         <view/>
     </sys_template>
 </record_update>

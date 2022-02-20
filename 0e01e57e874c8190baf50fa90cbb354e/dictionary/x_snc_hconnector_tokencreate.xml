@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_snc_hconnector_transaction" label="tokencreate" max_length="40" name="x_snc_hconnector_tokencreate" sizeclass="1" type="collection">
+    <element extends="x_snc_hconnector_transaction" label="tokencreate" max_length="40" name="x_snc_hconnector_tokencreate" sizeclass="3" type="collection">
         <element label="Admin Key" max_length="100" name="admin_key" reference="x_snc_hconnector_key" type="reference"/>
         <element label="Decimals" max_length="50" name="decimals" type="string"/>
         <element label="Freeze Key" max_length="100" name="freeze_key" reference="x_snc_hconnector_key" type="reference"/>

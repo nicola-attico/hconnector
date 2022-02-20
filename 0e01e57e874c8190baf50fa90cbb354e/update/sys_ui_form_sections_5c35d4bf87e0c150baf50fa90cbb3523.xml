@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="5c35d4bf87e0c150baf50fa90cbb3523" sys_domain="global" table="x_snc_hconnector_accountcreate" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-01 10:12:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f697dd31b9d0510c5efa6c8b04bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hconnector_accountcreate" name="x_snc_hconnector_accountcreate" sys_domain="global" view="a3e35c3f87e0c150baf50fa90cbb3553">5c35d4bf87e0c150baf50fa90cbb3523</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="a3e35c3f87e0c150baf50fa90cbb3553">4f759cbf87e0c150baf50fa90cbb35a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-01 10:12:18</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_hconnector_accountcreate</name>
             <roles/>

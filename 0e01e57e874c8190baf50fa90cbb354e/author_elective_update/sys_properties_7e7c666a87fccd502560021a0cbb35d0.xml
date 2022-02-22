@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_hconnector.network</name>
+        <read_roles/>
+        <suffix>network</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 09:29:06</sys_created_on>
+        <sys_id>7e7c666a87fccd502560021a0cbb35d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hconnector.network</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_properties_7e7c666a87fccd502560021a0cbb35d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 09:29:06</sys_updated_on>
+        <type>string</type>
+        <value>testnet</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=7e7c666a87fccd502560021a0cbb35d0"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>c833f52e1bf0455032182f8dee4bcb6c</instance_id>
+        <instance_name>hconnectordemo</instance_name>
+        <name>sys_properties_7e7c666a87fccd502560021a0cbb35d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_hconnector.network</name>
+        <read_roles/>
+        <suffix>network</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 09:29:06</sys_created_on>
+        <sys_id>7e7c666a87fccd502560021a0cbb35d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hconnector.network</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_properties_7e7c666a87fccd502560021a0cbb35d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 09:29:06</sys_updated_on>
+        <type>string</type>
+        <value>testnet</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e7c666a87fccd502560021a0cbb35d0"/>
+</record_update>]]></payload>
+        <payload_hash>866544806</payload_hash>
+        <record_name>x_snc_hconnector.network</record_name>
+        <reverted_from/>
+        <source>afc03e7fdb61011074ee4d7605961977</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-15 13:48:32</sys_created_on>
+        <sys_id>87213a33dba1011074ee4d76059619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17efda457410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-15 13:48:32</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>47213a33bda101101f94a70405e14fe3</update_guid>
+        <update_guid_history>47213a33bda101101f94a70405e14fe3:866544806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-22 11:49:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>24837f30cedd48e185db25e4c3ad8621</sys_id>
+        <sys_metadata>7e7c666a87fccd502560021a0cbb35d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_hconnector.network</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_properties_7e7c666a87fccd502560021a0cbb35d0</sys_update_name>
+        <sys_update_version display_value="sys_properties_7e7c666a87fccd502560021a0cbb35d0">87213a33dba1011074ee4d76059619e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-22 11:49:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

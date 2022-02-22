@@ -11,7 +11,7 @@
     gr = new GlideRecord('x_snc_hconnector_account')
     gr.query()
     while (gr.next()) {
-        var endpoint = "https://testnet.mirrornode.hedera.com/api/v1/accounts/" + gr.account_id
+        var endpoint = "https://" + gs.getProperty("x_snc_hconnector.mirror") + ".mirrornode.hedera.com/api/v1/accounts/" + gr.account_id
         var sm = new sn_ws.RESTMessageV2()
         sm.setEndpoint(endpoint)
         sm.setRequestHeader('X-API-KEY', '8dff0aff-de40-38ac-b980-b162adeb49e1')
@@ -44,14 +44,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3cd71b68700c190baf50fa90cbb35fa</sys_id>
-        <sys_mod_count>202</sys_mod_count>
+        <sys_mod_count>206</sys_mod_count>
         <sys_name>Account</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_vtable_e3cd71b68700c190baf50fa90cbb35fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-17 08:25:46</sys_updated_on>
+        <sys_updated_on>2022-02-22 12:44:18</sys_updated_on>
         <table>x_snc_hconnector_st_account</table>
     </sys_script_vtable>
 </record_update>

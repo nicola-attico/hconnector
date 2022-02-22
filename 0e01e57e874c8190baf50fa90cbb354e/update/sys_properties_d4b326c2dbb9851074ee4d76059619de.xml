@@ -4,24 +4,24 @@
         <description/>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_snc_hconnector.payer</name>
+        <name>x_snc_hconnector.dragonglass</name>
         <read_roles/>
-        <suffix>payer</suffix>
+        <suffix>network</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-05 09:28:29</sys_created_on>
-        <sys_id>7a5ca66a87fccd502560021a0cbb3594</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_hconnector.payer</sys_name>
+        <sys_created_on>2022-02-22 12:36:13</sys_created_on>
+        <sys_id>d4b326c2dbb9851074ee4d76059619de</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_snc_hconnector.dragonglass</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name>sys_properties_7a5ca66a87fccd502560021a0cbb3594</sys_update_name>
+        <sys_update_name>sys_properties_d4b326c2dbb9851074ee4d76059619de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-05 09:28:29</sys_updated_on>
+        <sys_updated_on>2022-02-22 13:08:09</sys_updated_on>
         <type>string</type>
-        <value>0.0.501886</value>
+        <value>app</value>
         <write_roles/>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=7a5ca66a87fccd502560021a0cbb3594"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4b326c2dbb9851074ee4d76059619de"/>
 </record_update>

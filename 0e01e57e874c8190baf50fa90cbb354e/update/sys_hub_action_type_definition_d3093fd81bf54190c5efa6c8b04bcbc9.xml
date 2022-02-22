@@ -8,7 +8,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-rome-06-23-2021__patch4-hotfix1b-01-19-2022_02-08-2022_1831.zip</compiler_build>
+        <compiler_build>glide-rome-06-23-2021__patch4-hotfix1a-12-17-2021_01-11-2022_1246.zip</compiler_build>
         <copied_from>497d696b87d04dd0baf50fa90cbb3505</copied_from>
         <copied_from_name>transferToken</copied_from_name>
         <description/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3093fd81bf54190c5efa6c8b04bcbc9</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>transferToken2</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d3093fd81bf54190c5efa6c8b04bcbc9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-20 03:17:33</sys_updated_on>
+        <sys_updated_on>2022-02-21 17:06:33</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:19:35</sys_created_on>
         <sys_id>3b097fd81bf54190c5efa6c8b04bcb4d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-20 03:07:14</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD6b097fd8d4f5419091d9d2034586e019":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD6b097fd8d4f5419091d9d2034586e019.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"c6f61b7e-63c8-4065-9d6e-42e9cf6a2865\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD6b097fd8d4f5419091d9d2034586e019\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-02-21 16:51:42</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD6b097fd8d4f5419091d9d2034586e019":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD6b097fd8d4f5419091d9d2034586e019.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"c6f61b7e-63c8-4065-9d6e-42e9cf6a2865\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD6b097fd8d4f5419091d9d2034586e019\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">23097fd81bf54190c5efa6c8b04bcb1c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -129,18 +129,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=96b9bb1c1bf54190c5efa6c8b04bcbd9"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>96b9bb1c1bf54190c5efa6c8b04bcbd9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:22:29</sys_created_on>
-        <sys_id>eab9bb1c1bf54190c5efa6c8b04bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:22:29</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmd</field>
         <id>96b9bb1c1bf54190c5efa6c8b04bcbd9</id>
         <sys_created_by>admin</sys_created_by>
@@ -163,18 +151,6 @@
         <sys_updated_on>2022-02-17 10:23:36</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_96b9bb1c1bf54190c5efa6c8b04bcbd9</table>
         <value>{{step[140aad9c-c8db-4979-aee8-5e060a372e30].enccmd}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>96b9bb1c1bf54190c5efa6c8b04bcbd9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:22:29</sys_created_on>
-        <sys_id>aeb9bb1c1bf54190c5efa6c8b04bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:22:29</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tx</field>
@@ -476,10 +452,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:22:29</sys_created_on>
         <sys_id>96b9f71c1bf54190c5efa6c8b04bcb84</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:47:49</sys_updated_on>
+        <sys_updated_on>2022-02-21 17:06:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=96b9f71c1bf54190c5efa6c8b04bcb84"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -490,9 +466,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:22:29</sys_created_on>
         <sys_id>92b9bb1c1bf54190c5efa6c8b04bcbd7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:47:49</sys_updated_on>
+        <sys_updated_on>2022-02-21 17:06:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
 tx = inputs.tx
@@ -527,9 +503,8 @@ if (tx.serial.toString() != "") {
   }]
 }
 
-//cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
-//cmd = cmd +  " --transfers '" + JSON.stringify(transfer) + "'"
-cmd = cmd +  ' --transfers &amp;apos;' + JSON.stringify(transfer) + '&amp;apos;' //it works
+cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
+//cmd = cmd +  ' --transfers &amp;apos;' + JSON.stringify(transfer) + '&amp;apos;' //it works
 
 if (tx.sign_with.toString() != "") {
   k = tx.sign_with.toString().split(',')
@@ -562,26 +537,14 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=96b9f71c1bf54190c5efa6c8b04bcb84"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>96b9f71c1bf54190c5efa6c8b04bcb84</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:22:29</sys_created_on>
-        <sys_id>9ab9bb1c1bf54190c5efa6c8b04bcbd6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:22:29</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>96b9f71c1bf54190c5efa6c8b04bcb84</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:22:29</sys_created_on>
-        <sys_id>5eb9bb1c1bf54190c5efa6c8b04bcbd6</sys_id>
+        <sys_created_on>2022-02-21 16:51:42</sys_created_on>
+        <sys_id>58a4deb1dbbd451074ee4d7605961919</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:22:29</sys_updated_on>
+        <sys_updated_on>2022-02-21 16:51:42</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -845,18 +808,6 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=eb093fd81bf54190c5efa6c8b04bcbf5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>eb093fd81bf54190c5efa6c8b04bcbf5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:19:34</sys_created_on>
-        <sys_id>6f097fd81bf54190c5efa6c8b04bcb15</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:19:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmdout</field>
         <id>eb093fd81bf54190c5efa6c8b04bcbf5</id>
         <sys_created_by>admin</sys_created_by>
@@ -866,18 +817,6 @@ outputs.cmd = cmd
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 08:22:30</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_eb093fd81bf54190c5efa6c8b04bcbf5</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>eb093fd81bf54190c5efa6c8b04bcbf5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:19:34</sys_created_on>
-        <sys_id>23097fd81bf54190c5efa6c8b04bcb16</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:19:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1402,17 +1341,17 @@ outputs.cmd = cmd
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="transferToken2">d3093fd81bf54190c5efa6c8b04bcbc9</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b13a3b5c1bf54190c5efa6c8b04bcb35","name":"plan","plan_signature":null}}</plan>
-        <snapshot>b0b012911bb58110c5efa6c8b04bcbf8</snapshot>
+        <snapshot>c2081e75dbbd451074ee4d7605961951</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:24:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b13a3b5c1bf54190c5efa6c8b04bcb35</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-20 03:17:35</sys_updated_on>
+        <sys_updated_on>2022-02-21 17:06:34</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1474,10 +1413,10 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:24:36</sys_created_on>
         <sys_id>d53af75c1bf54190c5efa6c8b04bcb97</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-20 03:07:22</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"c6f61b7e-63c8-4065-9d6e-42e9cf6a2865\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-02-21 16:51:48</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"c6f61b7e-63c8-4065-9d6e-42e9cf6a2865\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">553af75c1bf54190c5efa6c8b04bcb82</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_8d3af75c1bf54190c5efa6c8b04bcb17^id=8d3af75c1bf54190c5efa6c8b04bcb17"/>
@@ -1541,18 +1480,6 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=813af75c1bf54190c5efa6c8b04bcb45"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>813af75c1bf54190c5efa6c8b04bcb45</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:24:35</sys_created_on>
-        <sys_id>c13af75c1bf54190c5efa6c8b04bcb65</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:24:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmd</field>
         <id>813af75c1bf54190c5efa6c8b04bcb45</id>
         <sys_created_by>admin</sys_created_by>
@@ -1575,18 +1502,6 @@ outputs.cmd = cmd
         <sys_updated_on>2022-02-17 10:23:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_813af75c1bf54190c5efa6c8b04bcb45</table>
         <value>{{step[140aad9c-c8db-4979-aee8-5e060a372e30].enccmd}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>813af75c1bf54190c5efa6c8b04bcb45</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:24:35</sys_created_on>
-        <sys_id>853af75c1bf54190c5efa6c8b04bcb65</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:24:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tx</field>
@@ -1888,10 +1803,10 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:24:35</sys_created_on>
         <sys_id>8d3af75c1bf54190c5efa6c8b04bcb28</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:47:57</sys_updated_on>
+        <sys_updated_on>2022-02-21 17:06:32</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d3af75c1bf54190c5efa6c8b04bcb28"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1902,9 +1817,9 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:24:35</sys_created_on>
         <sys_id>8d3af75c1bf54190c5efa6c8b04bcb42</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:47:57</sys_updated_on>
+        <sys_updated_on>2022-02-21 17:06:32</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
 tx = inputs.tx
@@ -1939,9 +1854,8 @@ if (tx.serial.toString() != "") {
   }]
 }
 
-//cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
-//cmd = cmd +  " --transfers '" + JSON.stringify(transfer) + "'"
-cmd = cmd +  ' --transfers &amp;apos;' + JSON.stringify(transfer) + '&amp;apos;' //it works
+cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
+//cmd = cmd +  ' --transfers &amp;apos;' + JSON.stringify(transfer) + '&amp;apos;' //it works
 
 if (tx.sign_with.toString() != "") {
   k = tx.sign_with.toString().split(',')
@@ -1974,26 +1888,14 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8d3af75c1bf54190c5efa6c8b04bcb28"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>8d3af75c1bf54190c5efa6c8b04bcb28</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:24:35</sys_created_on>
-        <sys_id>813af75c1bf54190c5efa6c8b04bcb42</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:24:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>8d3af75c1bf54190c5efa6c8b04bcb28</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:24:35</sys_created_on>
-        <sys_id>453af75c1bf54190c5efa6c8b04bcb42</sys_id>
+        <sys_created_on>2022-02-21 16:51:47</sys_created_on>
+        <sys_id>39a412f1dbbd451074ee4d760596193e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:24:35</sys_updated_on>
+        <sys_updated_on>2022-02-21 16:51:47</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -2256,30 +2158,6 @@ outputs.cmd = cmd
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8d3af75c1bf54190c5efa6c8b04bcb68"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>8d3af75c1bf54190c5efa6c8b04bcb68</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:24:35</sys_created_on>
-        <sys_id>dd3af75c1bf54190c5efa6c8b04bcb7b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:24:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>8d3af75c1bf54190c5efa6c8b04bcb68</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 08:24:36</sys_created_on>
-        <sys_id>913af75c1bf54190c5efa6c8b04bcb7c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 08:24:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>stdout</field>
         <id>8d3af75c1bf54190c5efa6c8b04bcb68</id>

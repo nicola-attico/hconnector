@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3093fd81bf54190c5efa6c8b04bcbc9</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>transferToken2</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d3093fd81bf54190c5efa6c8b04bcbc9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-21 17:06:33</sys_updated_on>
+        <sys_updated_on>2022-02-24 13:45:11</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -452,10 +452,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:22:29</sys_created_on>
         <sys_id>96b9f71c1bf54190c5efa6c8b04bcb84</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-21 17:06:25</sys_updated_on>
+        <sys_updated_on>2022-02-24 13:45:05</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=96b9f71c1bf54190c5efa6c8b04bcb84"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -466,9 +466,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:22:29</sys_created_on>
         <sys_id>92b9bb1c1bf54190c5efa6c8b04bcbd7</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-21 17:06:25</sys_updated_on>
+        <sys_updated_on>2022-02-24 13:45:05</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
 tx = inputs.tx
@@ -503,7 +503,8 @@ if (tx.serial.toString() != "") {
   }]
 }
 
-cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
+cmd = cmd +  ' --transfers ' + JSON.stringify(JSON.stringify(transfer))
+//cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
 //cmd = cmd +  ' --transfers &amp;apos;' + JSON.stringify(transfer) + '&amp;apos;' //it works
 
 if (tx.sign_with.toString() != "") {
@@ -1341,17 +1342,17 @@ outputs.cmd = cmd
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="transferToken2">d3093fd81bf54190c5efa6c8b04bcbc9</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b13a3b5c1bf54190c5efa6c8b04bcb35","name":"plan","plan_signature":null}}</plan>
-        <snapshot>c2081e75dbbd451074ee4d7605961951</snapshot>
+        <snapshot>e9b6c9b2db39091074ee4d7605961931</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:24:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b13a3b5c1bf54190c5efa6c8b04bcb35</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-21 17:06:34</sys_updated_on>
+        <sys_updated_on>2022-02-24 13:45:12</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1803,10 +1804,10 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:24:35</sys_created_on>
         <sys_id>8d3af75c1bf54190c5efa6c8b04bcb28</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-21 17:06:32</sys_updated_on>
+        <sys_updated_on>2022-02-24 13:45:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d3af75c1bf54190c5efa6c8b04bcb28"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1817,9 +1818,9 @@ outputs.cmd = cmd
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 08:24:35</sys_created_on>
         <sys_id>8d3af75c1bf54190c5efa6c8b04bcb42</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-21 17:06:32</sys_updated_on>
+        <sys_updated_on>2022-02-24 13:45:11</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
 tx = inputs.tx
@@ -1854,7 +1855,8 @@ if (tx.serial.toString() != "") {
   }]
 }
 
-cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
+cmd = cmd +  ' --transfers ' + JSON.stringify(JSON.stringify(transfer))
+//cmd = cmd +  ' --transfers \'' + JSON.stringify(transfer) + '\''
 //cmd = cmd +  ' --transfers &amp;apos;' + JSON.stringify(transfer) + '&amp;apos;' //it works
 
 if (tx.sign_with.toString() != "") {

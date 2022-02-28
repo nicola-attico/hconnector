@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Balances V2</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+    (function() {
+
+        try {
+            var inputs = {};
+
+            accounts = new GlideRecord('x_snc_hconnector_account');
+            accounts.query();
+            inputs['accounts'] = accounts; // List
+
+            var result = sn_fd.FlowAPI.getRunner().action('x_snc_hconnector.queryaccountbalances2').inForeground().withInputs(inputs).run();
+            var outputs = result.getOutputs();
+
+            var out = outputs['out'];
+            gs.addInfoMessage(out)
+            var res = JSON.parse(out);
+
+            for (j = 0; j < res.resp.length; j++) {
+                for (i = 0; i < res.resp[j][1].tokens.length; i++) {
+
+                    var t = new GlideRecord('x_snc_hconnector_token');
+                    t.get('token_id', res.resp[j][1].tokens[i].tokenId)
+                    gs.addInfoMessage("t_sysid: " + t.sys_id)
+                    var a = new GlideRecord('x_snc_hconnector_account')
+                    a.get('account_id', res.resp[j][0])
+                    gs.addInfoMessage("a_sysid: " + a.sys_id)
+
+                    if (t.sys_id) {
+
+						
+                        row = {
+                            account: a.sys_id,
+                            account_id: a.account_id,
+                            name: a.name,
+                            token: t.sys_id,
+                            token_id: t.token_id,
+                            balance: res.resp[j][1].tokens[i].balance,
+                            decimals: res.resp[j][1].tokens[i].decimals,
+                            formatted_balance: new Utils().add_comma(res.resp[j][1].tokens[i].balance, Number(res.resp[j][1].tokens[i].decimals))
+                        }
+
+                        v_table.addRow(row)
+                    }
+
+
+                }
+            }
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error(message);
+        }
+
+    })();
+
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 13:35:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3ba25c0db4e811074ee4d7605961946</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Balances V2</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_script_vtable_f3ba25c0db4e811074ee4d7605961946</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 15:28:45</sys_updated_on>
+        <table>x_snc_hconnector_st_balance</table>
+    </sys_script_vtable>
+</record_update>

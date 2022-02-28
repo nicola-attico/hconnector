@@ -21,7 +21,7 @@
             var outputs = result.getOutputs();
 
             var out = outputs['out'];
-            gs.addInfoMessage(out)
+            //gs.addInfoMessage(out)
             var res = JSON.parse(out);
 
             for (j = 0; j < res.resp.length; j++) {
@@ -29,12 +29,10 @@
 
                     var t = new GlideRecord('x_snc_hconnector_token');
                     t.get('token_id', res.resp[j][1].tokens[i].tokenId)
-                    gs.addInfoMessage("t_sysid: " + t.sys_id)
                     var a = new GlideRecord('x_snc_hconnector_account')
                     a.get('account_id', res.resp[j][0])
-                    gs.addInfoMessage("a_sysid: " + a.sys_id)
 
-                    if (t.sys_id) {
+                    if (t) {
 
 						
                         row = {
@@ -70,14 +68,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3ba25c0db4e811074ee4d7605961946</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>Balances V2</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_vtable_f3ba25c0db4e811074ee4d7605961946</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-28 15:28:45</sys_updated_on>
+        <sys_updated_on>2022-02-28 15:46:08</sys_updated_on>
         <table>x_snc_hconnector_st_balance</table>
     </sys_script_vtable>
 </record_update>

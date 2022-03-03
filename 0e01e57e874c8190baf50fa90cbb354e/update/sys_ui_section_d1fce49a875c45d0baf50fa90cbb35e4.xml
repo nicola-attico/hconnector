@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 11:20:46</sys_created_on>
-            <sys_id>03df60f787a4c150baf50fa90cbb35c5</sys_id>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>9871c50587864510481887b60cbb3581</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 11:20:46</sys_updated_on>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>transaction_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 11:20:46</sys_created_on>
-            <sys_id>83df60f787a4c150baf50fa90cbb35c5</sys_id>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>1c71c50587864510481887b60cbb3581</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 11:20:46</sys_updated_on>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,85 +32,99 @@
             <element>transaction_hash</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 11:20:46</sys_created_on>
-            <sys_id>07df60f787a4c150baf50fa90cbb35c5</sys_id>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>9c71c50587864510481887b60cbb3581</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 11:20:46</sys_updated_on>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>1071c50587864510481887b60cbb3582</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 11:20:46</sys_created_on>
-            <sys_id>87df60f787a4c150baf50fa90cbb35c5</sys_id>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>9071c50587864510481887b60cbb3582</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 11:20:46</sys_updated_on>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sign_with</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 11:20:46</sys_created_on>
-            <sys_id>0bdf60f787a4c150baf50fa90cbb35c5</sys_id>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>1471c50587864510481887b60cbb3582</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 11:20:46</sys_updated_on>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 11:20:46</sys_created_on>
-            <sys_id>8bdf60f787a4c150baf50fa90cbb35c5</sys_id>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>9471c50587864510481887b60cbb3582</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 11:20:46</sys_updated_on>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_fee</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>1871c50587864510481887b60cbb3582</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-27 11:20:46</sys_created_on>
-            <sys_id>0fdf60f787a4c150baf50fa90cbb35c5</sys_id>
+            <sys_created_on>2022-03-03 13:08:30</sys_created_on>
+            <sys_id>9871c50587864510481887b60cbb3582</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-27 11:20:46</sys_updated_on>
+            <sys_updated_on>2022-03-03 13:08:30</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-28 11:44:09</sys_created_on>
-            <sys_id>0bce31cc87344550baf50fa90cbb35c6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_hconnector_accountcreate" sys_domain="global" view="Default view">d1fce49a875c45d0baf50fa90cbb35e4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-28 11:44:09</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

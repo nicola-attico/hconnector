@@ -39,6 +39,8 @@
     xmlDoc.parseXML(response_payload_xml);
     var myResponse = xmlDoc.getFirstNode('/results/result/stdout').getTextContent().toString();
 
+	gs.info("myResponse " + myResponse)
+	
     var table = current.agent_correlator.split(':')[0]
     var sys_id = current.agent_correlator.split(':')[1]
     gr = new GlideRecord(table)
@@ -46,7 +48,7 @@
 
     gr.output = myResponse;
 	gr.status = "done"
-    gr.update();
+    gs.info("Update " + gr.update());
 
     current.state = "processed"
 
@@ -59,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dbfab4bc1bfd45905e794338b04bcbaf</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Hedera Sensor</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -67,7 +69,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_dbfab4bc1bfd45905e794338b04bcbaf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-18 17:08:24</sys_updated_on>
+        <sys_updated_on>2022-03-03 11:56:17</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

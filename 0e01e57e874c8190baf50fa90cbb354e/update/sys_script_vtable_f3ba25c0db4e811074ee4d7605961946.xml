@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
     <sys_script_vtable action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <advanced>false</advanced>
         <cache_isolation_level>USER</cache_isolation_level>
         <cache_strategy>CACHE_BY_QUERY</cache_strategy>
@@ -68,14 +68,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3ba25c0db4e811074ee4d7605961946</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Balances V2</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_script_vtable_f3ba25c0db4e811074ee4d7605961946</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-28 15:46:08</sys_updated_on>
+        <sys_updated_on>2022-03-03 14:17:16</sys_updated_on>
         <table>x_snc_hconnector_st_balance</table>
     </sys_script_vtable>
 </record_update>

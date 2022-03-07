@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>transfer_token</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>transfer_token</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-02-04 10:08:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b935955cdbe1c1102f5dfcd1f39619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>transfer_token</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b935955cdbe1c1102f5dfcd1f39619b3</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-04 10:08:02</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=b935955cdbe1c1102f5dfcd1f39619b3"/>
+    <sys_variable_value action="DELETE" query="document_key=b935955cdbe1c1102f5dfcd1f39619b3"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>c833f52e1bf0455032182f8dee4bcb6c</instance_id>
+        <instance_name>hconnectordemo</instance_name>
+        <name>sys_hub_action_type_definition_b935955cdbe1c1102f5dfcd1f39619b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>transfer_token</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>transfer_token</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-02-04 10:08:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b935955cdbe1c1102f5dfcd1f39619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>transfer_token</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b935955cdbe1c1102f5dfcd1f39619b3</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-04 10:08:02</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b935955cdbe1c1102f5dfcd1f39619b3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b935955cdbe1c1102f5dfcd1f39619b3"/>
+</record_update>]]></payload>
+        <payload_hash>70718530</payload_hash>
+        <record_name>transfer_token</record_name>
+        <reverted_from/>
+        <source>f057a611db39051074ee4d760596194b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-20 05:00:31</sys_created_on>
+        <sys_id>0d48e655db39051074ee4d7605961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f1580b9610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-20 05:00:31</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>8948e655623905109c743be39d523117</update_guid>
+        <update_guid_history>8948e655623905109c743be39d523117:0,af117233f9a10110a5e7204ef260b58e:583276930</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-07 12:24:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>48f8e0902faf4569bfea8f7cf4007461</sys_id>
+        <sys_metadata>b935955cdbe1c1102f5dfcd1f39619b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>transfer_token</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_b935955cdbe1c1102f5dfcd1f39619b3</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_b935955cdbe1c1102f5dfcd1f39619b3">0d48e655db39051074ee4d7605961917</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-07 12:24:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

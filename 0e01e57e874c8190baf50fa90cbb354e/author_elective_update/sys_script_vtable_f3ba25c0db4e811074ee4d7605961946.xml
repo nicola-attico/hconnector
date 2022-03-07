@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="DELETE">
+        <active>false</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Balance (old)</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+    (function() {
+
+        try {
+            var inputs = {};
+
+            accounts = new GlideRecord('x_snc_hconnector_account');
+            accounts.query();
+            inputs['accounts'] = accounts; // List
+
+            var result = sn_fd.FlowAPI.getRunner().action('x_snc_hconnector.queryaccountbalances2').inForeground().withInputs(inputs).run();
+            var outputs = result.getOutputs();
+
+            var out = outputs['out'];
+            //gs.addInfoMessage(out)
+            var res = JSON.parse(out);
+
+            for (j = 0; j < res.resp.length; j++) {
+                for (i = 0; i < res.resp[j][1].tokens.length; i++) {
+
+                    var t = new GlideRecord('x_snc_hconnector_token');
+                    t.get('token_id', res.resp[j][1].tokens[i].tokenId)
+                    var a = new GlideRecord('x_snc_hconnector_account')
+                    a.get('account_id', res.resp[j][0])
+
+                    if (t) {
+
+						
+                        row = {
+                            account: a.sys_id,
+                            account_id: a.account_id,
+                            name: a.name,
+                            token: t.sys_id,
+                            token_id: t.token_id,
+                            balance: res.resp[j][1].tokens[i].balance,
+                            decimals: res.resp[j][1].tokens[i].decimals,
+                            formatted_balance: new Utils().add_comma(res.resp[j][1].tokens[i].balance, Number(res.resp[j][1].tokens[i].decimals))
+                        }
+
+                        v_table.addRow(row)
+                    }
+
+
+                }
+            }
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error(message);
+        }
+
+    })();
+
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-28 13:35:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3ba25c0db4e811074ee4d7605961946</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Balance (old)</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_script_vtable_f3ba25c0db4e811074ee4d7605961946</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 16:37:10</sys_updated_on>
+        <table>x_snc_hconnector_st_balance</table>
+    </sys_script_vtable>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>c833f52e1bf0455032182f8dee4bcb6c</instance_id>
+        <instance_name>hconnectordemo</instance_name>
+        <name>sys_script_vtable_f3ba25c0db4e811074ee4d7605961946</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_vtable"&gt;&lt;sys_script_vtable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;cache_isolation_level&gt;USER&lt;/cache_isolation_level&gt;&lt;cache_strategy&gt;CACHE_BY_QUERY&lt;/cache_strategy&gt;&lt;cache_ttl&gt;0&lt;/cache_ttl&gt;&lt;name&gt;Balance (old)&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function executeQuery(v_table, v_query) {
+
+    (function() {
+
+        try {
+            var inputs = {};
+
+            accounts = new GlideRecord('x_snc_hconnector_account');
+            accounts.query();
+            inputs['accounts'] = accounts; // List
+
+            var result = sn_fd.FlowAPI.getRunner().action('x_snc_hconnector.queryaccountbalances2').inForeground().withInputs(inputs).run();
+            var outputs = result.getOutputs();
+
+            var out = outputs['out'];
+            //gs.addInfoMessage(out)
+            var res = JSON.parse(out);
+
+            for (j = 0; j &lt; res.resp.length; j++) {
+                for (i = 0; i &lt; res.resp[j][1].tokens.length; i++) {
+
+                    var t = new GlideRecord('x_snc_hconnector_token');
+                    t.get('token_id', res.resp[j][1].tokens[i].tokenId)
+                    var a = new GlideRecord('x_snc_hconnector_account')
+                    a.get('account_id', res.resp[j][0])
+
+                    if (t) {
+
+						
+                        row = {
+                            account: a.sys_id,
+                            account_id: a.account_id,
+                            name: a.name,
+                            token: t.sys_id,
+                            token_id: t.token_id,
+                            balance: res.resp[j][1].tokens[i].balance,
+                            decimals: res.resp[j][1].tokens[i].decimals,
+                            formatted_balance: new Utils().add_comma(res.resp[j][1].tokens[i].balance, Number(res.resp[j][1].tokens[i].decimals))
+                        }
+
+                        v_table.addRow(row)
+                    }
+
+
+                }
+            }
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error(message);
+        }
+
+    })();
+
+
+})(v_table, v_query);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_vtable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-28 13:35:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f3ba25c0db4e811074ee4d7605961946&lt;/sys_id&gt;&lt;sys_mod_count&gt;46&lt;/sys_mod_count&gt;&lt;sys_name&gt;Balance (old)&lt;/sys_name&gt;&lt;sys_package display_value="hconnector" source="x_snc_hconnector"&gt;0e01e57e874c8190baf50fa90cbb354e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="hconnector"&gt;0e01e57e874c8190baf50fa90cbb354e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_vtable_f3ba25c0db4e811074ee4d7605961946&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-04 16:37:10&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_hconnector_st_balance&lt;/table&gt;&lt;/sys_script_vtable&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1941481220</payload_hash>
+        <record_name>Balance (old)</record_name>
+        <reverted_from/>
+        <source>47f1be3fdb61011074ee4d7605961956</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 16:37:10</sys_created_on>
+        <sys_id>7acab2d187868510481887b60cbb3598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f55cad6220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 16:37:10</sys_updated_on>
+        <type>Remote Table</type>
+        <update_guid>72cab2d12a868510daf4e1ac2456aa98</update_guid>
+        <update_guid_history>72cab2d12a868510daf4e1ac2456aa98:-1941481220,d00559851bc64510526b349e053a359b:0,18c88648e48e8110bc5bd64f291cf310:1040124611,75c4c684198e8110b0c07b0aada171ce:1629844714,be444284d78e81101e7f7d06db134c8c:-2107685878,f214ca44c78e8110cb42d5dc5958b5cb:-164915211,f0828ec0dc8e8110de9a639ebf156b26:1037135520,b7228ec02b8e81107d5e3cc353a21f2f:1056862546,ef418ec04b8e81103bf77efe622c6e1e:-675631250,5421cac09f8e811015c2f1832853d7bd:826292392,ae014ac0e38e8110329010811990c245:-927399923,5fb046c0e78e81103016904a4576c16f:70360058,ef80c240b58e8110e2b3501396fe43f1:-663617657,016086809f8e8110346443c89733cfc9:-786326062,bdff3d004c8e81102c5c691f2cefba28:-1620995929,f5cfb980328e81100f06031e072b1374:-682477148,ac9f7980508e811017bc4e7a3e70f891:781222953,6d3ffd00478e8110b79833c1c71bf407:-2070196841,5cadf140e18e81109afdc54a58a331cd:1580880504,5a1d3d00de8e81104c8f38ac04c9306e:-788301942,f40d7d00d48e811040bb1a4a4f72f633:684115017,85ec3d002f8e81108bea14c64b095016:1578294730,5dac71cc204e811055ead68faf934202:-918778371,cbcb7dcc2b4e81104923bf520ca642b8:1769766784,a26a31cc8d4e8110a93a891f7aed71ed:1706874127,18b9358c0b4e81102744fafbc999e880:-1121870295,c469f14cb14e81101efd815e2157b61f:-1457164468,4949f54c384e81100d57a8e5f0c8a163:2010134827,43c8f54c0e4e81105eaf234062d7d06f:-1644228549,89b83d4c4a4e8110e60d4f9b3e5155db:-1516397593,6d88fd0c034e811018a7706138b94a2a:-1564471097,71b63dc8874e8110a943ae8fccb6ab63:-778531340,f4867dc85c4e81101745a169c7149113:1568247084,3c667dc8424e8110b508571040d3b717:1773467214,12c571c8dd4e8110eeceb1d47e39ec05:1686804692,cba579c8914e81104cd4af0cfd356537:203295930,4b1535c8dd4e81108cecbcb99320e1a2:1984493288,72e4b988994e8110fd3fb2ac307be099:-458675397,58c43548f04e8110d51fc204e2630a81:-594289279,44b431c8a74e81106e9c1e6abd4b0710:548078259,a2247988364e8110310e89b481df112b:1753157487,761435887f4e8110a891f64567369cff:1824532164,3763fd480a4e81100b94b481466a6505:1392774719,cfd17d08264e8110d3d0286e7dfad724:-1567917230,78903dc4f24e8110724c1aa6bc66cce8:819877785,2f5badc0db4e811044e315b58a100a93:2064927008,49daa5c0234e81104a04a0a95429cd5e:-534973042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-07 11:30:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_vtable">sys_script_vtable</sys_db_object>
+        <sys_id>1e63a7b9e15648a285d965fec5482f29</sys_id>
+        <sys_metadata>f3ba25c0db4e811074ee4d7605961946</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Balance (old)</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_script_vtable_f3ba25c0db4e811074ee4d7605961946</sys_update_name>
+        <sys_update_version display_value="sys_script_vtable_f3ba25c0db4e811074ee4d7605961946">7acab2d187868510481887b60cbb3598</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-07 11:30:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

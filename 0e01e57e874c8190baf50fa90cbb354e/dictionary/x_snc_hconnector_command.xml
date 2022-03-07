@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Command" max_length="40" name="x_snc_hconnector_command" sizeclass="1" type="collection">
+        <element label="Input" max_length="1000000000" name="input" type="string_full_utf8"/>
+        <element label="Output" max_length="1000000000" name="output" type="string_full_utf8"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="done" value="done"/>
+                <element inactive_on_update="false" label="failure" value="failure"/>
+                <element inactive_on_update="false" label="new" value="new"/>
+                <element inactive_on_update="false" label="success" value="success"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Account Balance" value="account_balance"/>
+            </choice>
+        </element>
+    </element>
+</database>

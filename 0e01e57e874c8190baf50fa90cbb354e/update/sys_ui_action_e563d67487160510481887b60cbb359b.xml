@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>sysverb_key</action_name>
-        <active>false</active>
+        <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
@@ -26,14 +26,14 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Generate Key</name>
+        <name>Generate_Key</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[(function() {
 	
 	try {
 
-		var result = sn_fd.FlowAPI.getRunner().action('x_snc_hconnector.generatekey2').inForeground().run();
+		var result = sn_fd.FlowAPI.getRunner().action('x_snc_hconnector.generate_key').inForeground().run();
 		var outputs = result.getOutputs();
 
 		var public_key = outputs['public_key']; // String
@@ -61,19 +61,19 @@
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-12-22 17:50:48</sys_created_on>
+        <sys_created_on>2022-03-15 10:43:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f3679c1287ac8910baf50fa90cbb352b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Generate Key</sys_name>
+        <sys_id>e563d67487160510481887b60cbb359b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Generate_Key</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name>sys_ui_action_f3679c1287ac8910baf50fa90cbb352b</sys_update_name>
+        <sys_update_name>sys_ui_action_e563d67487160510481887b60cbb359b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-16 07:03:58</sys_updated_on>
+        <sys_updated_on>2022-03-16 07:03:55</sys_updated_on>
         <table>x_snc_hconnector_key</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="hrest_auth">04264668875ac110481887b60cbb356c</basic_auth_profile>
+        <basic_auth_user/>
+        <description/>
+        <name>HRest</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://142.93.168.135:3000/</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-14 15:06:36</sys_created_on>
+        <sys_id>53a50268875ac110481887b60cbb3542</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HRest</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_rest_message_53a50268875ac110481887b60cbb3542</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-14 15:07:41</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

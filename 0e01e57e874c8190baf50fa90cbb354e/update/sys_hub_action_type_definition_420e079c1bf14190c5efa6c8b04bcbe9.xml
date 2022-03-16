@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>420e079c1bf14190c5efa6c8b04bcbe9</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>generateKey2</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_420e079c1bf14190c5efa6c8b04bcbe9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-20 03:04:40</sys_updated_on>
+        <sys_updated_on>2022-03-03 14:33:09</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -164,30 +164,6 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b05fc3101b354190c5efa6c8b04bcbf9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>b05fc3101b354190c5efa6c8b04bcbf9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:17:15</sys_created_on>
-        <sys_id>015f07101b354190c5efa6c8b04bcb0c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>b05fc3101b354190c5efa6c8b04bcbf9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:17:15</sys_created_on>
-        <sys_id>c15f07101b354190c5efa6c8b04bcb0c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>stdout</field>
         <id>b05fc3101b354190c5efa6c8b04bcbf9</id>
@@ -380,11 +356,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:17:15</sys_created_on>
         <sys_id>8d5f07101b354190c5efa6c8b04bcb07</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>public_key</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_b05fc3101b354190c5efa6c8b04bcbf9_public_key_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
         <url/>
@@ -449,18 +425,6 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f45fc3101b354190c5efa6c8b04bcbe2"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>f45fc3101b354190c5efa6c8b04bcbe2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:17:15</sys_created_on>
-        <sys_id>785fc3101b354190c5efa6c8b04bcbf5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmd</field>
         <id>f45fc3101b354190c5efa6c8b04bcbe2</id>
         <sys_created_by>admin</sys_created_by>
@@ -471,18 +435,6 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_f45fc3101b354190c5efa6c8b04bcbe2</table>
         <value>{{step[303c972f-6118-4d95-b3dd-abbbbc824f58].cmd}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>f45fc3101b354190c5efa6c8b04bcbe2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:17:15</sys_created_on>
-        <sys_id>3c5fc3101b354190c5efa6c8b04bcbf5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f45fc3101b354190c5efa6c8b04bcbe2^id=f45fc3101b354190c5efa6c8b04bcbe2"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f45fc3101b354190c5efa6c8b04bcbe2"/>
@@ -664,11 +616,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:17:15</sys_created_on>
         <sys_id>f45fc3101b354190c5efa6c8b04bcbf1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>stdout</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f45fc3101b354190c5efa6c8b04bcbe2_stdout_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
         <url/>
@@ -827,11 +779,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:22:23</sys_created_on>
         <sys_id>4880df501b354190c5efa6c8b04bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cmd</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f85fcfdc1bf14190c5efa6c8b04bcb2f_cmd_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:22:23</sys_updated_on>
         <url/>
@@ -1111,11 +1063,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:21:50</sys_created_on>
         <sys_id>40609b501b354190c5efa6c8b04bcba3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_420e079c1bf14190c5efa6c8b04bcbe9___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:21:50</sys_updated_on>
         <url/>
@@ -1134,11 +1086,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:17:15</sys_created_on>
         <sys_id>495f07101b354190c5efa6c8b04bcb2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>public_key</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_420e079c1bf14190c5efa6c8b04bcbe9_public_key_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:17:15</sys_updated_on>
         <url/>
@@ -1157,11 +1109,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:21:50</sys_created_on>
         <sys_id>c8609b501b354190c5efa6c8b04bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_420e079c1bf14190c5efa6c8b04bcbe9___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:21:50</sys_updated_on>
         <url/>
@@ -1171,7 +1123,7 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="generateKey2">420e079c1bf14190c5efa6c8b04bcbe9</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5487131c1b354190c5efa6c8b04bcbe6","name":"plan","plan_signature":null}}</plan>
-        <snapshot>00cdc25d1b758110c5efa6c8b04bcb66</snapshot>
+        <snapshot>baa59d0987c64510481887b60cbb35f6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-17 05:52:59</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -1441,11 +1393,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:52:56</sys_created_on>
         <sys_id>bf77dfd81b354190c5efa6c8b04bcbfb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cmd</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2f77dfd81b354190c5efa6c8b04bcbf1_cmd_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:52:56</sys_updated_on>
         <url/>
@@ -1510,18 +1462,6 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3f77131c1b354190c5efa6c8b04bcb02"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3f77131c1b354190c5efa6c8b04bcb02</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:52:57</sys_created_on>
-        <sys_id>b777131c1b354190c5efa6c8b04bcb17</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmd</field>
         <id>3f77131c1b354190c5efa6c8b04bcb02</id>
         <sys_created_by>admin</sys_created_by>
@@ -1532,18 +1472,6 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3f77131c1b354190c5efa6c8b04bcb02</table>
         <value>{{step[303c972f-6118-4d95-b3dd-abbbbc824f58].cmd}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3f77131c1b354190c5efa6c8b04bcb02</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:52:57</sys_created_on>
-        <sys_id>7b77131c1b354190c5efa6c8b04bcb17</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3f77131c1b354190c5efa6c8b04bcb02^id=3f77131c1b354190c5efa6c8b04bcb02"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=3f77131c1b354190c5efa6c8b04bcb02"/>
@@ -1725,11 +1653,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:52:57</sys_created_on>
         <sys_id>7777131c1b354190c5efa6c8b04bcb13</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>stdout</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3f77131c1b354190c5efa6c8b04bcb02_stdout_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
         <url/>
@@ -1792,30 +1720,6 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b377131c1b354190c5efa6c8b04bcb1b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>b377131c1b354190c5efa6c8b04bcb1b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:52:57</sys_created_on>
-        <sys_id>ff77131c1b354190c5efa6c8b04bcb3b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>b377131c1b354190c5efa6c8b04bcb1b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 05:52:57</sys_created_on>
-        <sys_id>b377131c1b354190c5efa6c8b04bcb3c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>stdout</field>
         <id>b377131c1b354190c5efa6c8b04bcb1b</id>
@@ -2008,11 +1912,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:52:57</sys_created_on>
         <sys_id>bf77131c1b354190c5efa6c8b04bcb37</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>public_key</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_b377131c1b354190c5efa6c8b04bcb1b_public_key_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
         <url/>
@@ -2292,11 +2196,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:52:57</sys_created_on>
         <sys_id>0487131c1b354190c5efa6c8b04bcb49</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>public_key</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6b77dfd81b354190c5efa6c8b04bcbed_public_key_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
         <url/>
@@ -2315,11 +2219,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:52:57</sys_created_on>
         <sys_id>0887131c1b354190c5efa6c8b04bcb50</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6b77dfd81b354190c5efa6c8b04bcbed___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
         <url/>
@@ -2338,11 +2242,11 @@ outputs.public_key = JSON.parse(inputs.stdout).publicKey
         <sys_created_on>2022-02-17 05:52:57</sys_created_on>
         <sys_id>8487131c1b354190c5efa6c8b04bcb5c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6b77dfd81b354190c5efa6c8b04bcbed___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 05:52:57</sys_updated_on>
         <url/>

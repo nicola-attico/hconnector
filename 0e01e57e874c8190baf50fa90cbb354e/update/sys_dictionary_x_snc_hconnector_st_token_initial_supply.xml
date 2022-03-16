@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-11 05:15:59</sys_created_on>
-        <sys_id>73d2c1a28794c5d0baf50fa90cbb3525</sys_id>
+        <sys_id>25c03a7fdb61011074ee4d76059619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Initial Supply</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_hconnector_st_token_initial_supply</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-01 10:10:27</sys_updated_on>
+        <sys_updated_on>2022-02-20 04:59:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

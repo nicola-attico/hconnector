@@ -65,7 +65,7 @@
         <update_guid_history>39c40c884264cdd0e2571eaaa3ed4871:1108432146,1294c488d864cdd0837d09ee07233695:-740132817,3530ae732b5c8dd0627823b33c82f5dd:-375566911</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Associate Token">119b24928720c910baf50fa90cbb354c</sys_audit_delete>
+        <sys_audit_delete display_value="">119b24928720c910baf50fa90cbb354c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-22 19:11:12</sys_created_on>

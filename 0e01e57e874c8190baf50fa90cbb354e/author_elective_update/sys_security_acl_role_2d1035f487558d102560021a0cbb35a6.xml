@@ -42,7 +42,7 @@
         <update_guid_history>ed1035f446558d10bd015d24676be9a8:1461712225</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_hconnector_pinned_nft.x_snc_hconnector.pinned_nft_user">e7607df487558d102560021a0cbb359e</sys_audit_delete>
+        <sys_audit_delete display_value="">e7607df487558d102560021a0cbb359e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-24 15:08:12</sys_created_on>

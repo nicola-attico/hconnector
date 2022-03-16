@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Transaction" max_length="40" name="x_snc_hconnector_transaction" sizeclass="108" type="collection">
+    <element label="Transaction" max_length="40" name="x_snc_hconnector_transaction" sizeclass="14" type="collection">
         <element label="Flow code" max_length="100" name="flow_code" type="string_full_utf8"/>
         <element label="Flow Message" max_length="1000" name="flow_message" type="string_full_utf8"/>
         <element label="Hedera Status" max_length="200" name="hedera_status" type="string_full_utf8"/>

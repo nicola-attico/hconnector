@@ -65,7 +65,7 @@
         <update_guid_history>6d5c1afbf61c8dd00b2740844a6c15ef:166629687</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="associateaccounts">ea10aa73875c8dd0baf50fa90cbb35d4</sys_audit_delete>
+        <sys_audit_delete display_value="">ea10aa73875c8dd0baf50fa90cbb35d4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-15 09:15:29</sys_created_on>

@@ -52,7 +52,7 @@
         <update_guid_history>548ba41a1e5c45d0e0d472812ef9a349:630974763</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Transaction">6e2de4da875c45d0baf50fa90cbb35a5</sys_audit_delete>
+        <sys_audit_delete display_value="">6e2de4da875c45d0baf50fa90cbb35a5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-10 09:02:26</sys_created_on>

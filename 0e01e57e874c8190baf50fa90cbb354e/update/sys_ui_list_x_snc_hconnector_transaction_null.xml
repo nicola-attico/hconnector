@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_snc_hconnector_transaction" element="NULL" name="x_snc_hconnector_transaction" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">57dd281e875c45d0baf50fa90cbb352c</list_id>
+            <list_id display_value="x_snc_hconnector_transaction" element="NULL" name="x_snc_hconnector_transaction" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9472306f875c0dd0baf50fa90cbb3547</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>

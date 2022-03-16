@@ -182,7 +182,7 @@
         <update_guid_history>5da98a7ef4450510e99b0ced7235da2a:-1433906365</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Token Transfer Status">dad98e7e874505102560021a0cbb35bb</sys_audit_delete>
+        <sys_audit_delete display_value="">dad98e7e874505102560021a0cbb35bb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-18 11:51:25</sys_created_on>
@@ -192,7 +192,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Token Transfer Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
-        <sys_parent display_value="tokentransfer">cfd511e787504dd0baf50fa90cbb353d</sys_parent>
+        <sys_parent display_value="">cfd511e787504dd0baf50fa90cbb353d</sys_parent>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>

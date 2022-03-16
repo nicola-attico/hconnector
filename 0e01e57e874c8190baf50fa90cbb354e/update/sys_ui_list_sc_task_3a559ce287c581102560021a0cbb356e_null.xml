@@ -128,7 +128,7 @@
             <name>x_snc_hconnector_tokentransfer</name>
             <parent>sc_task</parent>
             <position/>
-            <relationship display_value="Token Transfers">3a559ce287c581102560021a0cbb356e</relationship>
+            <relationship display_value="">3a559ce287c581102560021a0cbb356e</relationship>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>

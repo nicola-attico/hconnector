@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>edbea4641b3d4190c5efa6c8b04bcbb8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>sendToken2</sys_name>
         <sys_overrides/>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_edbea4641b3d4190c5efa6c8b04bcbb8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-20 03:06:36</sys_updated_on>
+        <sys_updated_on>2022-03-03 14:33:48</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -155,30 +155,6 @@ outputs.cmd = cmd
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a5bea4641b3d4190c5efa6c8b04bcbff"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>a5bea4641b3d4190c5efa6c8b04bcbff</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:14:00</sys_created_on>
-        <sys_id>f1bee4641b3d4190c5efa6c8b04bcb47</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:14:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>a5bea4641b3d4190c5efa6c8b04bcbff</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:14:00</sys_created_on>
-        <sys_id>b9bee4641b3d4190c5efa6c8b04bcb47</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:14:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tx</field>
         <id>a5bea4641b3d4190c5efa6c8b04bcbff</id>
@@ -371,11 +347,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:14:00</sys_created_on>
         <sys_id>79bee4641b3d4190c5efa6c8b04bcb42</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cmd</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a5bea4641b3d4190c5efa6c8b04bcbff_cmd_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:14:00</sys_updated_on>
         <url/>
@@ -440,18 +416,6 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c2bee4641b3d4190c5efa6c8b04bcb64"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>c2bee4641b3d4190c5efa6c8b04bcb64</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:14:01</sys_created_on>
-        <sys_id>4ebee4641b3d4190c5efa6c8b04bcb91</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:14:01</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmd</field>
         <id>c2bee4641b3d4190c5efa6c8b04bcb64</id>
         <sys_created_by>admin</sys_created_by>
@@ -474,18 +438,6 @@ outputs.cmd = cmd
         <sys_updated_on>2022-02-17 12:14:01</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_c2bee4641b3d4190c5efa6c8b04bcb64</table>
         <value>{{step[140aad9c-c8db-4979-aee8-5e060a372e30].enccmd}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>c2bee4641b3d4190c5efa6c8b04bcb64</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:14:01</sys_created_on>
-        <sys_id>02bee4641b3d4190c5efa6c8b04bcb92</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:14:01</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c2bee4641b3d4190c5efa6c8b04bcb64^id=c2bee4641b3d4190c5efa6c8b04bcb64"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c2bee4641b3d4190c5efa6c8b04bcb64"/>
@@ -667,11 +619,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:14:01</sys_created_on>
         <sys_id>cabee4641b3d4190c5efa6c8b04bcb8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>stdout</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c2bee4641b3d4190c5efa6c8b04bcb64_stdout_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:14:01</sys_updated_on>
         <url/>
@@ -734,30 +686,6 @@ outputs.cmd = cmd
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c6bee4641b3d4190c5efa6c8b04bcb95"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>c6bee4641b3d4190c5efa6c8b04bcb95</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:14:02</sys_created_on>
-        <sys_id>42bee4641b3d4190c5efa6c8b04bcbb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:14:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>c6bee4641b3d4190c5efa6c8b04bcb95</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:14:02</sys_created_on>
-        <sys_id>06bee4641b3d4190c5efa6c8b04bcbb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:14:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>stdout</field>
         <id>c6bee4641b3d4190c5efa6c8b04bcb95</id>
@@ -1219,11 +1147,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:14:00</sys_created_on>
         <sys_id>69bea4641b3d4190c5efa6c8b04bcbfc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>tx</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_edbea4641b3d4190c5efa6c8b04bcbb8_tx_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:14:00</sys_updated_on>
         <url/>
@@ -1243,11 +1171,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:14:02</sys_created_on>
         <sys_id>02bee4641b3d4190c5efa6c8b04bcbf5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_edbea4641b3d4190c5efa6c8b04bcbb8___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:14:02</sys_updated_on>
         <url/>
@@ -1266,11 +1194,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:14:02</sys_created_on>
         <sys_id>d2be28641b3d4190c5efa6c8b04bcb01</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_edbea4641b3d4190c5efa6c8b04bcbb8___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:14:02</sys_updated_on>
         <url/>
@@ -1417,30 +1345,6 @@ outputs.cmd = cmd
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=828f68a41b3d4190c5efa6c8b04bcbb4"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>828f68a41b3d4190c5efa6c8b04bcbb4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:17:35</sys_created_on>
-        <sys_id>c28f68a41b3d4190c5efa6c8b04bcbc8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:17:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>828f68a41b3d4190c5efa6c8b04bcbb4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:17:35</sys_created_on>
-        <sys_id>868f68a41b3d4190c5efa6c8b04bcbc8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:17:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>stdout</field>
         <id>828f68a41b3d4190c5efa6c8b04bcbb4</id>
@@ -1688,18 +1592,6 @@ outputs.cmd = cmd
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8e8f68a41b3d4190c5efa6c8b04bcb9b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>8e8f68a41b3d4190c5efa6c8b04bcb9b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:17:34</sys_created_on>
-        <sys_id>0a8f68a41b3d4190c5efa6c8b04bcbb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:17:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>cmd</field>
         <id>8e8f68a41b3d4190c5efa6c8b04bcb9b</id>
         <sys_created_by>admin</sys_created_by>
@@ -1710,18 +1602,6 @@ outputs.cmd = cmd
         <sys_updated_on>2022-02-17 12:17:35</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_8e8f68a41b3d4190c5efa6c8b04bcb9b</table>
         <value>{{step[919643f2-b0e4-47a4-95ba-64d86c415ffa].cmd}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>8e8f68a41b3d4190c5efa6c8b04bcb9b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:17:34</sys_created_on>
-        <sys_id>ca8f68a41b3d4190c5efa6c8b04bcbb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:17:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8e8f68a41b3d4190c5efa6c8b04bcb9b^id=8e8f68a41b3d4190c5efa6c8b04bcb9b"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8e8f68a41b3d4190c5efa6c8b04bcb9b"/>
@@ -1903,11 +1783,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:17:34</sys_created_on>
         <sys_id>868f68a41b3d4190c5efa6c8b04bcbac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>stdout</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8e8f68a41b3d4190c5efa6c8b04bcb9b_stdout_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:17:34</sys_updated_on>
         <url/>
@@ -1998,30 +1878,6 @@ outputs.cmd = cmd
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f98f68a41b3d4190c5efa6c8b04bcb82"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>f98f68a41b3d4190c5efa6c8b04bcb82</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:17:34</sys_created_on>
-        <sys_id>4e8f68a41b3d4190c5efa6c8b04bcb97</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:17:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>f98f68a41b3d4190c5efa6c8b04bcb82</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-17 12:17:34</sys_created_on>
-        <sys_id>028f68a41b3d4190c5efa6c8b04bcb98</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-17 12:17:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tx</field>
         <id>f98f68a41b3d4190c5efa6c8b04bcb82</id>
@@ -2214,11 +2070,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:17:34</sys_created_on>
         <sys_id>ca8f68a41b3d4190c5efa6c8b04bcb93</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cmd</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f98f68a41b3d4190c5efa6c8b04bcb82_cmd_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:17:34</sys_updated_on>
         <url/>
@@ -2497,11 +2353,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:17:34</sys_created_on>
         <sys_id>fd8f68a41b3d4190c5efa6c8b04bcb7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>tx</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fd8f68a41b3d4190c5efa6c8b04bcb57_tx_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:17:34</sys_updated_on>
         <url/>
@@ -2521,11 +2377,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:17:35</sys_created_on>
         <sys_id>928f68a41b3d4190c5efa6c8b04bcbd3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fd8f68a41b3d4190c5efa6c8b04bcb57___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:17:35</sys_updated_on>
         <url/>
@@ -2544,11 +2400,11 @@ outputs.cmd = cmd
         <sys_created_on>2022-02-17 12:17:35</sys_created_on>
         <sys_id>9a8f68a41b3d4190c5efa6c8b04bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
         <sys_policy/>
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fd8f68a41b3d4190c5efa6c8b04bcb57___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-17 12:17:35</sys_updated_on>
         <url/>

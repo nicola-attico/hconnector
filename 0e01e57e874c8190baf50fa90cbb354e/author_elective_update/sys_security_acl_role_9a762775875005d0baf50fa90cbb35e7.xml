@@ -42,7 +42,7 @@
         <update_guid_history>92766775a55005d05659fcd61cde200f:674451179</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_hconnector_account_create.x_snc_hconnector.account_create_user">c20ca45a875c45d0baf50fa90cbb35e0</sys_audit_delete>
+        <sys_audit_delete display_value="">c20ca45a875c45d0baf50fa90cbb35e0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-10 08:57:29</sys_created_on>

@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-04 15:23:37</sys_created_on>
-        <sys_id>1d143e9a87f88d502560021a0cbb35de</sys_id>
+        <sys_id>00c0b67fdb61011074ee4d7605961961</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Out Parsing Log</sys_name>
         <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_hconnector_transaction_out_parsing_log</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-01 10:10:40</sys_updated_on>
+        <sys_updated_on>2022-02-20 04:59:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

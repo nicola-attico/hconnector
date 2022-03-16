@@ -106,7 +106,7 @@
         <update_guid_history>e1dc8a04038a8110001ec6d189a99e30:-1641008238</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Balances V2">c261d1411b4205105e794338b04bcb78</sys_audit_delete>
+        <sys_audit_delete display_value="">c261d1411b4205105e794338b04bcb78</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-03 14:18:15</sys_created_on>

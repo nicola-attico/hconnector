@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94412cd91b298d10c5efa6c8b04bcbc7</list_id>
+            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea87cc1a872c8910baf50fa90cbb35d0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>account_id</element>
-            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94412cd91b298d10c5efa6c8b04bcbc7</list_id>
+            <list_id display_value="x_snc_hconnector_account" element="NULL" name="x_snc_hconnector_account" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea87cc1a872c8910baf50fa90cbb35d0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>

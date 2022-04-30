@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE2</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-02-03 09:24:04</sys_created_on>
+        <sys_id>4a61880cdb25cd902f5dfcd1f396190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE2</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_template_4a61880cdb25cd902f5dfcd1f396190d</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-03 09:24:04</sys_updated_on>
+        <table>ecc_queue</table>
+        <template>agent=mid.server.ie-bof1^payload=&lt;parameters&gt;&lt;parameter name="name" value="./hcli topic query --start 0 --end now  --topicid 0.0.29592768 "/&gt;&lt;/parameters&gt;^queue=output^topic=Command^EQ</template>
+        <user display_value="">87c5ef09dbcd09102f5dfcd1f39619f7</user>
+        <view/>
+    </sys_template>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>c833f52e1bf0455032182f8dee4bcb6c</instance_id>
+        <instance_name>hconnectordemo</instance_name>
+        <name>sys_template_4a61880cdb25cd902f5dfcd1f396190d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE2</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>nicola.attico</sys_created_by>
+        <sys_created_on>2022-02-03 09:24:04</sys_created_on>
+        <sys_id>4a61880cdb25cd902f5dfcd1f396190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE2</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_template_4a61880cdb25cd902f5dfcd1f396190d</sys_update_name>
+        <sys_updated_by>nicola.attico</sys_updated_by>
+        <sys_updated_on>2022-02-03 09:24:04</sys_updated_on>
+        <table>ecc_queue</table>
+        <template>agent=mid.server.ie-bof1^payload=&lt;parameters&gt;&lt;parameter name="name" value="./hcli topic query --start 0 --end now  --topicid 0.0.29592768 "/&gt;&lt;/parameters&gt;^queue=output^topic=Command^EQ</template>
+        <user display_value="">87c5ef09dbcd09102f5dfcd1f39619f7</user>
+        <view/>
+    </sys_template>
+</record_update>]]></payload>
+        <payload_hash>1702716123</payload_hash>
+        <record_name>TEMPLATE2</record_name>
+        <reverted_from/>
+        <source>f057a611db39051074ee4d760596194b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-20 05:01:06</sys_created_on>
+        <sys_id>6968a695db39051074ee4d760596196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f15813f760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-20 05:01:06</sys_updated_on>
+        <type>Template</type>
+        <update_guid>e568a695463905102e8f1a43c4269c6f</update_guid>
+        <update_guid_history>e568a695463905102e8f1a43c4269c6f:0,85317e33efa10110f6cc26224c295cc4:-1003828125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 05:01:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>838c0a368c3941a69c5644424c6dbc01</sys_id>
+        <sys_metadata>4a61880cdb25cd902f5dfcd1f396190d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE2</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_template_4a61880cdb25cd902f5dfcd1f396190d</sys_update_name>
+        <sys_update_version display_value="sys_template_4a61880cdb25cd902f5dfcd1f396190d">6968a695db39051074ee4d760596196f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 05:01:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

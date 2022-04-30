@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Test_Win</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 14:58:25</sys_created_on>
+        <sys_id>ce7739a31bad0d50c5efa6c8b04bcb98</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test_Win</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_template_ce7739a31bad0d50c5efa6c8b04bcb98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-18 11:04:57</sys_updated_on>
+        <table>ecc_queue</table>
+        <template>agent=mid.server.dlapipermidwin^payload=&lt;parameters&gt;&lt;parameter name="name" value="dir"/&gt;&lt;parameter name="skip_sensor" value="true"/&gt;&lt;/parameters&gt;^queue=output^topic=Command^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</application>
+        <file_path/>
+        <instance_id>c833f52e1bf0455032182f8dee4bcb6c</instance_id>
+        <instance_name>hconnectordemo</instance_name>
+        <name>sys_template_ce7739a31bad0d50c5efa6c8b04bcb98</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Test_Win</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 14:58:25</sys_created_on>
+        <sys_id>ce7739a31bad0d50c5efa6c8b04bcb98</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test_Win</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_update_name>sys_template_ce7739a31bad0d50c5efa6c8b04bcb98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-18 11:04:57</sys_updated_on>
+        <table>ecc_queue</table>
+        <template>agent=mid.server.dlapipermidwin^payload=&lt;parameters&gt;&lt;parameter name="name" value="dir"/&gt;&lt;parameter name="skip_sensor" value="true"/&gt;&lt;/parameters&gt;^queue=output^topic=Command^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>]]></payload>
+        <payload_hash>1666839192</payload_hash>
+        <record_name>Test_Win</record_name>
+        <reverted_from/>
+        <source>fbaa8619dbb5051074ee4d7605961914</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-20 02:52:00</sys_created_on>
+        <sys_id>eeda4a59dbb5051074ee4d76059619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f150b104e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-20 02:52:00</sys_updated_on>
+        <type>Template</type>
+        <update_guid>aeda4a599ab505105a2709cc9204edc6</update_guid>
+        <update_guid_history>aeda4a599ab505105a2709cc9204edc6:1666839192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 05:01:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>90f25195d55046d399c67b9b651bd0d1</sys_id>
+        <sys_metadata>ce7739a31bad0d50c5efa6c8b04bcb98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_Win</sys_name>
+        <sys_package display_value="hconnector" source="x_snc_hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="hconnector">0e01e57e874c8190baf50fa90cbb354e</sys_scope>
+        <sys_scope_delete display_value="">116cc33b159748d7b0350f18b26ffb59</sys_scope_delete>
+        <sys_update_name>sys_template_ce7739a31bad0d50c5efa6c8b04bcb98</sys_update_name>
+        <sys_update_version display_value="sys_template_ce7739a31bad0d50c5efa6c8b04bcb98">eeda4a59dbb5051074ee4d76059619c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 05:01:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
